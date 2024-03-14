@@ -25,7 +25,7 @@ function NavScrollExample() {
            
           </Nav>
 
-          <Button variant="outline-success button-color px-5">Contact</Button>
+          <Button variant=" button-color px-5">Contact</Button>
         </Navbar.Collapse>
       </Container>
     </Navbar>
