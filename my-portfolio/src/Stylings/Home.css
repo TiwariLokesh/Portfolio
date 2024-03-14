@@ -2,8 +2,8 @@
     border:1px solid #ca0018;
     color:#ca0018;
   }
-  .color:hover{
-    background-color: #ca0018;
+  .button-color:hover{
+    background-color: #ca0018 ;
     color: #fff;
     border: none;
   }

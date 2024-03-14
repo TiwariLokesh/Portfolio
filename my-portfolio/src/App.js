@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Statusbar from './Layout/Statusbar'
+import Home from './Pages/Home'
 function App() {
   return (
    <>
-   <Statusbar></Statusbar>
+   <Home></Home>
    </>
   );
 }
