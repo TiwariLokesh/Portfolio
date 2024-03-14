@@ -1,8 +1,19 @@
+*{
+    font-family: "Roboto";
+}
 
 
-
-  /* Hero */
+  /* Hero-section */
   .hero-para{
-  
-  
+    color:#ca0018;
+    font-size: 1.5rem;
+  }
+  .hero-h3{
+
+  }
+  .hero-h4{
+
+  }
+  .hero-content{
+
   }
