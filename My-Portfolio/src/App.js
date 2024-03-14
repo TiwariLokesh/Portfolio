@@ -1,13 +1,12 @@
-import React from 'react'
-import logo from './logo.svg';
+import React, { useRef } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-
+import Statusbar from './Layout/Statusbar'
 function App() {
   return (
    <>
-   
-   
+   <Statusbar></Statusbar>
+
    </>
   );
 }
