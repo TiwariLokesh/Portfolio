@@ -19,10 +19,9 @@ function NavScrollExample() {
             navbarScroll
           >
             <Nav.Link href="#action1" active className="mx-3">Home</Nav.Link>
-            <Nav.Link href="#action2" className="mx-3">About</Nav.Link>
-            <Nav.Link href="#action2" className="mx-3">Project</Nav.Link>
-            <Nav.Link href="#action2" className="mx-3">Blogs</Nav.Link>
-            <Nav.Link href="#action2" className="mx-3">Workshop</Nav.Link>
+            <Nav.Link href="#action2" className="mx-3">My Projects</Nav.Link>
+            <Nav.Link href="#action2" className="mx-3">My Blogs</Nav.Link>
+            <Nav.Link href="#action2" className="mx-3">My Workshop</Nav.Link>
            
           </Nav>
 
