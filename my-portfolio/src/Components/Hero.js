@@ -8,7 +8,8 @@ function Hero() {
         <Row>
           <Col md={6}>
             <p>Hello, My name is</p>
-            <h2>Lokesh Tiwari</h2>
+            <h3>Lokesh Tiwari</h3>
+<h4>Iam a Web Developer</h4>
           </Col>
 
           <Col md={6}></Col>
