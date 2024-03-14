@@ -4,7 +4,7 @@ import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-
+import '../Stylings/Statusbar.css'
 
 function NavScrollExample() {
   return (
@@ -26,7 +26,7 @@ function NavScrollExample() {
            
           </Nav>
 
-          <Button variant="outline-success px-5">Contact</Button>
+          <Button variant="outline-success button-color px-5">Contact</Button>
         </Navbar.Collapse>
       </Container>
     </Navbar>
