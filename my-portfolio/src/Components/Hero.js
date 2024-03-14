@@ -24,6 +24,10 @@ function Hero() {
               proficiency extends across the entire spectrum of web development,
               encompassing both front-end and back-end domains.
             </p>
+            <div>
+            <i className="fab fa-github" style={{ color: '#000000' }}></i>
+            <i class="fa-brands fa-instagram" style={{color: "#000000"}}></i>
+            </div>
           </Col>
 
           <Col md={6} className="p-3"></Col>
