@@ -39,3 +39,17 @@ text-align: left;
     color: #ca0018;
     font-weight: 400;
   }
+  .icon{
+    color: #ca0018 !important;
+    font-size: 2rem;
+    margin: 0px 10px;
+    border: 1px solid #ca0018;
+    padding: 10px 12px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+  }
+  .icon:hover{
+    background-color:#ca0018;
+    color: #fff !important ;
+    border: none;
+  }

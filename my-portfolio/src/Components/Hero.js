@@ -25,8 +25,9 @@ function Hero() {
               encompassing both front-end and back-end domains.
             </p>
             <div>
-            <i className="fab fa-github" style={{ color: '#000000' }}></i>
-            <i class="fa-brands fa-instagram" style={{color: "#000000"}}></i>
+           <a href="https://www.linkedin.com/in/lokesh-tiwari-ab7391253/"><i className="icon fa-brands fa-linkedin" style={{color: "#000000"}}></i></a> 
+            <a href=""><i className="icon fab fa-github" style={{ color: '#000000' }}></i></a>
+            <a href=""><i className="icon fa-brands fa-instagram" style={{color: "#000000"}}></i></a>
             </div>
           </Col>
 
