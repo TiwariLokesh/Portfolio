@@ -1,10 +1,8 @@
-import React, {Container,Row} from 'react'
+import React from 'react'
 
 function Projects() {
   return (
-    <Container>
-<Row className="special">My Projects</Row>
-    </Container>
+    <div>Projects</div>
   )
 }
 
