@@ -1,8 +1,11 @@
 import React from 'react'
+import { Container, Row } from 'react-bootstrap'
 
 function Projects() {
   return (
-    <div>Projects</div>
+    <Container>
+        <Row className=''>My Projects</Row>
+    </Container>
   )
 }
 
