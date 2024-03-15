@@ -1,8 +1,10 @@
-import React from 'react'
+import React, {Container} from 'react'
 
 function Projects() {
   return (
-    <div>Projects</div>
+    <Container>
+
+    </Container>
   )
 }
 
