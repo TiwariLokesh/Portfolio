@@ -18,9 +18,10 @@ function Hero() {
             </h4>
             <p className="hero-content mt-4 text-left">
               Greetings, I am Lokesh Tiwari, an accomplished{" "}
-              <span className="special">Full Stack Developer</span> at <span className="special">Godigitify Nexus. </span>
-              With over a <span className="special">1+</span> year of
-              industry experience, I am fervently dedicated to harnessing web
+              <span className="special">Full Stack Developer</span> at{" "}
+              <span className="special">Godigitify Nexus. </span>
+              With over a <span className="special">1+</span> year of industry
+              experience, I am fervently dedicated to harnessing web
               technologies to craft captivating digital experiences. My
               proficiency extends across the entire spectrum of web development,
               encompassing both front-end and back-end domains.
@@ -54,7 +55,10 @@ function Hero() {
                 ></i>
               </a>
             </div>
-            <a href="#">  <Button variant=" button-color px-3 my-4">Download CV</Button></a>
+            <a href="#">
+              {" "}
+              <Button variant=" button-color px-3 my-4">Download CV</Button>
+            </a>
           </Col>
 
           <Col md={6} className="p-3"></Col>
