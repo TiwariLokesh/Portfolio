@@ -10,11 +10,14 @@ function Home() {
       <Statusbar></Statusbar>
       <Hero></Hero>
       <Container>
-      {
+        <Row>
+        {
       Data.map((row) => {
         return <Projects data={row}></Projects>;
       })
       }
+        </Row>
+      
       </Container>
      
     </>
