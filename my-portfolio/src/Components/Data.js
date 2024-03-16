@@ -10,3 +10,4 @@ const Data = [
     disc: "lorem ipsum",
   },
 ];
+export default Data;
