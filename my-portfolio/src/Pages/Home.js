@@ -17,7 +17,7 @@ function Home() {
               <Projects data={row} />
             </Col>
           ))}
-        
+        <
       </Container>
     </>
   );
