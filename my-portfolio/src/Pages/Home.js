@@ -4,22 +4,21 @@ import Hero from "../Components/Hero";
 import Projects from "../Components/Projects";
 import Data from "../Components/Data";
 import { Container, Row, Col } from "react-bootstrap";
+
 function Home() {
   return (
     <>
-      <Statusbar></Statusbar>
-      <Hero></Hero>
+      <Statusbar />
+      <Hero />
       <Container>
         <Row>
-        {
-      Data.map((row) => {
-        return <Projects data={row}></Projects>;
-      })
-      }
+          {Data.map((row, index) => ( // Added 'index' for the key prop
+            <Col key={index} lg={4} md={6}> {/* Specify lg and md props */}
+              <Projects data={row} />
+            </Col>
+          ))}
         </Row>
-      
       </Container>
-     
     </>
   );
 }
