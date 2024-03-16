@@ -5,8 +5,8 @@ import Card from "react-bootstrap/Card";
 
 function Projects(props) {
   return (
-    <>
-      <Row className="special">My Projects</Row>
+    
+     <div>
       <Container>
         <Row className="align-items-center">
           <Col lg={4} md={6}>
@@ -21,7 +21,7 @@ function Projects(props) {
           </Col>
         </Row>
       </Container>
-    </>
+      </div>
   );
 }
 
