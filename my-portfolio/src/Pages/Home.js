@@ -2,7 +2,7 @@ import React from 'react'
 import Statusbar from '../Layout/Statusbar'
 import Hero from '../Components/Hero'
 import Projects from '../Components/Projects'
-import '../Components/Data'
+import Data from '../Components/Data'
 function Home() {
 
   return (
@@ -10,7 +10,7 @@ function Home() {
     <Statusbar></Statusbar>
     <Hero></Hero>
     {
-    productsData.map((row) => {
+    Data.map((row) => {
       return <Projects data={row}></Projects>
     })
   }
