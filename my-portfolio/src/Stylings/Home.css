@@ -51,7 +51,6 @@
 .icon:hover {
   background-color: #ca0018;
   color: #fff !important ;
-  border: none;
 }
 .icons {
   margin-left: -10px;
@@ -64,7 +63,7 @@
 .button-color:hover {
   background-color: #ca0018;
   color: #fff;
-  border: none;
+border: 1px solid #ca0018;
 }
 
 

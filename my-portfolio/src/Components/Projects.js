@@ -24,7 +24,7 @@ function Projects() {
 
           <Col lg={4} md={6} className="d-flex justify-content-center align-content-center">
             <Card className="cards" style={{ width: "23rem" }}>
-              <Card.Img variant="top" src="https://img.freepik.com/premium-photo/computer-screen-with-colorful-paint-it-generative-ai_97167-1066.jpg" />
+              <Card.Img variant="top" src="https://img.freepik.com/free-vector/flat-design-cryptocurrency-concept_23-2149166905.jpg?t=st=1710667900~exp=1710671500~hmac=b677978eb5e353c3c16024317cc63ba13ebe73af276bc5d526918c04401791a8&w=1060" />
               <Card.Body>
               <p><span className="card-title">Crypto Tracker</span></p>
                 <Card.Text>lorem ipsum</Card.Text>
