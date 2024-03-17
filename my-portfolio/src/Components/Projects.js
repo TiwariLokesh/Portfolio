@@ -9,7 +9,7 @@ function Projects() {
      <div>
       <Container>
         <div className="text-center project-heading">My <span>Projects</span></div>
-        <p></p>
+        <p className="project-para">Explore some of my featured projects</p>
         <Row className="align-items-center">
           <Col lg={4} md={6} className="d-flex justify-content-center align-content-center">
             <Card style={{ width: "23rem", height:"fit-content" }}>
