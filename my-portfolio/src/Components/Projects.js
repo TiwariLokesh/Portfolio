@@ -35,10 +35,10 @@ function Projects() {
 
           <Col lg={4} md={6} className="d-flex justify-content-center align-content-center">
             <Card className="cards" style={{ width: "23rem" }}>
-              <Card.Img variant="top" src="https://img.freepik.com/premium-photo/computer-screen-with-colorful-paint-it-generative-ai_97167-1066.jpg" />
+              <Card.Img variant="top" src="https://img.freepik.com/free-vector/people-creating-social-media-landing-page_52683-38062.jpg?t=st=1710668641~exp=1710672241~hmac=97f7dd62f877d6eed05aa5f43ebb6372aaed3523cb052d552a89abc76e940cd7&w=1060" />
               <Card.Body>
               <p><span className="card-title">KK. Electric (Web)</span></p>
-                <Card.Text>lorem ipsum</Card.Text>
+                <Card.Text className="card-content ">Presenting K.K. Electric & Tool House's dynamic website, showcasing products and expertise. Elevate your online presence with us!</Card.Text>
                 <Button variant=" project-button">Read More</Button>
               </Card.Body>
             </Card>
