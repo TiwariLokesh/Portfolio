@@ -12,7 +12,7 @@ function Projects() {
         <p className="project-para pb-5">Explore some of my featured projects</p>
         <Row className="align-items-center">
           <Col lg={4} md={6} className="d-flex justify-content-center align-content-center">
-            <Card style={{ width: "23rem", height:"fit-content" }}>
+            <Card className="cards"style={{ width: "24rem", }}>
               <Card.Img variant="top" src="https://img.freepik.com/premium-photo/computer-screen-with-colorful-paint-it-generative-ai_97167-1066.jpg" />
               <Card.Body>
                 <Card.Title>Title</Card.Title>
@@ -23,7 +23,7 @@ function Projects() {
           </Col>
 
           <Col lg={4} md={6} className="d-flex justify-content-center align-content-center">
-            <Card style={{ width: "23rem" }}>
+            <Card className="cards" style={{ width: "24rem" }}>
               <Card.Img variant="top" src="https://img.freepik.com/premium-photo/computer-screen-with-colorful-paint-it-generative-ai_97167-1066.jpg" />
               <Card.Body>
                 <Card.Title>Title</Card.Title>
@@ -34,7 +34,7 @@ function Projects() {
           </Col>
 
           <Col lg={4} md={6} className="d-flex justify-content-center align-content-center">
-            <Card style={{ width: "23rem" }}>
+            <Card className="cards" style={{ width: "24rem" }}>
               <Card.Img variant="top" src="https://img.freepik.com/premium-photo/computer-screen-with-colorful-paint-it-generative-ai_97167-1066.jpg" />
               <Card.Body>
                 <Card.Title>Title</Card.Title>
