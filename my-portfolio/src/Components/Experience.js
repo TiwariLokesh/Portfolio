@@ -25,7 +25,7 @@ function Experience() {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
                 excepturi accusamus minus totam{" "}
               </p>
-              <a href="https://www.godigitify.com/" target="_blank">More Information</a>
+              <a href="https://www.godigitify.com/" target="_blank">Visit Website</a>
               <span className="date">January 2023</span>
               <span className="circle"></span>
             </li>
