@@ -63,7 +63,7 @@ function Hero() {
           </Col>
 
           <Col lg={6} className="p-3">
-<img className="img-fluid"src = {profile}></img>
+<img className="img-fluid profile-img"src = {profile}></img>
           </Col>
         </Row>
       </Container>
