@@ -3,7 +3,7 @@ import { Container, Row } from "react-bootstrap";
 
 function Experience() {
   return (
-    <Container className="pb-5">
+    <Container className="pb-5 experience">
       <Row className="pb-5">
         <div className="text-center project-heading">
           My <span>Experience</span>
