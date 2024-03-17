@@ -7,7 +7,7 @@ function Hero() {
     <div>
       <Container className="pb-5 pt-5">
         <Row>
-          <Col md={6} className="p-4">
+          <Col lg={6} className="p-4">
             <p className="hero-para">
               <i>Hello!!!</i>
             </p>
