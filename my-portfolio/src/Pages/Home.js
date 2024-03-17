@@ -10,15 +10,7 @@ function Home() {
     <>
       <Statusbar />
       <Hero />
-      <Container>
-        < className="justify-content-center"> {/* Center align the columns */}
-          {Data.map((row, index) => (
-            <Col key={index} lg={4} md={6} className="mb-4"> {/* Add margin bottom */}
-              <Projects data={row} />
-            </Col>
-          ))}
-        <Row/>
-      </Container>
+      <Projects/>
     </>
   );
 }
