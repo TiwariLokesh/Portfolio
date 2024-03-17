@@ -8,7 +8,8 @@ function Projects() {
     
      <div>
       <Container>
-        <div className="text-center">My <span>Projects</span></div>
+        <div className="text-center project-heading">My <span>Projects</span></div>
+        <p></p>
         <Row className="align-items-center">
           <Col lg={4} md={6} className="d-flex justify-content-center align-content-center">
             <Card style={{ width: "23rem", height:"fit-content" }}>

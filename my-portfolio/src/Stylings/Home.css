@@ -66,3 +66,14 @@
   color: #fff;
   border: none;
 }
+
+
+
+/* Project-section */
+.project-heading{
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+.project-heading span{
+  color: #ca0018;
+}
