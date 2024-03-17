@@ -77,13 +77,13 @@ border: 1px solid #ca0018;
 
 @media only screen and (max-width: 468px){
 	.hero-h3{
-font-size:1.5rem ;
+font-size:1.1rem ;
 	}
 	.hero-h3 span{
-
+font-size: 1.1rem;
 	}
 	.hero-h4{
-		font-size: rem;
+		font-size: 1.6rem;
 	}
 }
 
