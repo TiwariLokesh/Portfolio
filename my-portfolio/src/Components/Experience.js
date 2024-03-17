@@ -38,7 +38,7 @@ function Experience() {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
                 excepturi accusamus minus totam{" "}
               </p>
-              <a href="#">Read More ></a>
+              <a href="https://www.techlearns.in/" target="_blank">Visit Website</a>
               <span className="date">February 2021</span>
               <span className="circle"></span>
             </li>

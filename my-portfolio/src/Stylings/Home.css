@@ -242,6 +242,10 @@ ul li a {
 	.box ul li .circle{
 		left: -20px;
 	}
+	ul li .heading span {
+		font-size: 12px;
+		
+	}
 }
 
 
