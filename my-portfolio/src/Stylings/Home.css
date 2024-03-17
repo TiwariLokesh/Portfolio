@@ -70,7 +70,21 @@ border: 1px solid #ca0018;
 }
 
 @media only screen and (max-width: 798px){
-	
+	.hero-h4{
+		font-size: 2.8rem;
+	}
+}
+
+@media only screen and (max-width: 468px){
+	.hero-h3{
+font-size:1.5rem ;
+	}
+	.hero-h3 span{
+
+	}
+	.hero-h4{
+		font-size: rem;
+	}
 }
 
 /*Experience-section*/
