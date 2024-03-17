@@ -6,7 +6,9 @@ function Experience() {
     
     <Container className='pb-5'>
         <Row className='pb-5'>
-        <div className="text-center project-heading pb-5">My <span>Experience</span></div>   
+        <div className="text-center project-heading">My <span>Experience</span></div>  
+        <p className="project-para pb-5">Browse through my extensive industry experience.</p>
+
         </Row>
         <Row className='justify-content-center align align-items-center pb-5'>
     <div className="box d-flex justify-content-center align-items-center">
@@ -16,7 +18,7 @@ function Experience() {
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
             totam </p>
             <a href="#">Read More ></a>
-            <span className="date">January 2021</span>
+            <span className="date">January 2023</span>
             <span className="circle"></span>
         </li>
         <li>
