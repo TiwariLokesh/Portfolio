@@ -96,3 +96,15 @@
   border-radius: 4px;
   font-weight: 500;
 }
+.card-content{
+  text-align: justify;
+}
+.project-button{
+  border: 1px solid #ca0018;
+  padding:6px 25px ;
+  color: #ca0018;
+}
+.project-button:hover{
+  background-color: #ca0018;
+  color: #fff;
+}
