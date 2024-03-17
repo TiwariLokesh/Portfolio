@@ -15,7 +15,7 @@ function Projects() {
             <Card className="cards"style={{ width: "24rem", }}>
               <Card.Img variant="top" src="https://img.freepik.com/premium-photo/computer-screen-with-colorful-paint-it-generative-ai_97167-1066.jpg" />
               <Card.Body>
-                <Card.Title>Title</Card.Title>
+                <p><span className="card-title">Tech Connect</span></p>
                 <Card.Text>lorem ipsum</Card.Text>
                 <Button variant="primary">Go somewhere</Button>
               </Card.Body>
@@ -26,7 +26,7 @@ function Projects() {
             <Card className="cards" style={{ width: "24rem" }}>
               <Card.Img variant="top" src="https://img.freepik.com/premium-photo/computer-screen-with-colorful-paint-it-generative-ai_97167-1066.jpg" />
               <Card.Body>
-                <Card.Title>Title</Card.Title>
+              <p><span className="card-title">Tech Connect</span></p>
                 <Card.Text>lorem ipsum</Card.Text>
                 <Button variant="primary">Go somewhere</Button>
               </Card.Body>
@@ -37,7 +37,7 @@ function Projects() {
             <Card className="cards" style={{ width: "24rem" }}>
               <Card.Img variant="top" src="https://img.freepik.com/premium-photo/computer-screen-with-colorful-paint-it-generative-ai_97167-1066.jpg" />
               <Card.Body>
-                <Card.Title>Title</Card.Title>
+              <p><span className="card-title">Tech Connect</span></p>
                 <Card.Text>lorem ipsum</Card.Text>
                 <Button variant="primary">Go somewhere</Button>
               </Card.Body>

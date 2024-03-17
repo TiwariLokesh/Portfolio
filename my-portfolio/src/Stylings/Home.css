@@ -88,3 +88,11 @@
 .cards{
   box-shadow: 5px 5px 5px #00000016;
 }
+.card-title{
+  background-color:#ca0018;
+  padding: 6px 25px;
+  font-size: 1.2rem;
+  color: #fff;
+  border-radius: 4px;
+  font-weight: 500;
+}
