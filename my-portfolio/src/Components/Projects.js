@@ -27,8 +27,8 @@ function Projects() {
               <Card.Img variant="top" src="https://img.freepik.com/free-vector/flat-design-cryptocurrency-concept_23-2149166905.jpg?t=st=1710667900~exp=1710671500~hmac=b677978eb5e353c3c16024317cc63ba13ebe73af276bc5d526918c04401791a8&w=1060" />
               <Card.Body>
               <p><span className="card-title">Crypto Tracker</span></p>
-                <Card.Text>lorem ipsum</Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Card.Text className="card-content ">Dynamic cryptocurrency tracking website. Stay updated on market trends, analyze real-time data, and efficiently manage your digital assets online.</Card.Text>
+                <Button variant=" project-button">Read More</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -39,7 +39,7 @@ function Projects() {
               <Card.Body>
               <p><span className="card-title">KK. Electric (Web)</span></p>
                 <Card.Text>lorem ipsum</Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Button variant=" project-button">Read More</Button>
               </Card.Body>
             </Card>
           </Col>
