@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "../Stylings/Home.css";
+import profile from '../Images/profile.png';
 function Hero() {
   return (
     <div>
@@ -61,7 +62,9 @@ function Hero() {
             </a>
           </Col>
 
-          <Col md={6} className="p-3"></Col>
+          <Col lg={6} className="p-3">
+<img className="img-fluid"src = {profile}></img>
+          </Col>
         </Row>
       </Container>
     </div>
