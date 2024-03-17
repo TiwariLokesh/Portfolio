@@ -8,13 +8,36 @@ function Projects() {
     
      <div>
       <Container>
+        <div className="text-center">My <span>Projects</span></div>
         <Row className="align-items-center">
-          <Col lg={4} md={6}>
-            <Card style={{ width: "25rem" }}>
-              <Card.Img variant="top" src={props.data.image} />
+          <Col lg={4} md={6} className="d-flex justify-content-center align-content-center">
+            <Card style={{ width: "23rem", height:"fit-content" }}>
+              <Card.Img variant="top" src="https://img.freepik.com/premium-photo/computer-screen-with-colorful-paint-it-generative-ai_97167-1066.jpg" />
               <Card.Body>
-                <Card.Title>{props.data.title}</Card.Title>
-                <Card.Text>{props.data.disc}</Card.Text>
+                <Card.Title>Title</Card.Title>
+                <Card.Text>lorem ipsum</Card.Text>
+                <Button variant="primary">Go somewhere</Button>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col lg={4} md={6} className="d-flex justify-content-center align-content-center">
+            <Card style={{ width: "23rem" }}>
+              <Card.Img variant="top" src="https://img.freepik.com/premium-photo/computer-screen-with-colorful-paint-it-generative-ai_97167-1066.jpg" />
+              <Card.Body>
+                <Card.Title>Title</Card.Title>
+                <Card.Text>lorem ipsum</Card.Text>
+                <Button variant="primary">Go somewhere</Button>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col lg={4} md={6} className="d-flex justify-content-center align-content-center">
+            <Card style={{ width: "23rem" }}>
+              <Card.Img variant="top" src="https://img.freepik.com/premium-photo/computer-screen-with-colorful-paint-it-generative-ai_97167-1066.jpg" />
+              <Card.Body>
+                <Card.Title>Title</Card.Title>
+                <Card.Text>lorem ipsum</Card.Text>
                 <Button variant="primary">Go somewhere</Button>
               </Card.Body>
             </Card>
