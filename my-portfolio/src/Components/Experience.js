@@ -15,6 +15,7 @@ function Experience() {
     <ul>
         <li>
             <h3 className="heading"><span>Full Stack Developer</span></h3>
+            <p className='fw-bold text-dark fs-6'>Godigitify Nexus</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
             totam </p>
             <a href="#">Read More ></a>
@@ -23,6 +24,7 @@ function Experience() {
         </li>
         <li>
             <h3 className="heading"><span>Trainer</span></h3>
+            <p className='fw-bold text-dark fs-6'>Techlearns Academy</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
             totam </p>
             <a href="#">Read More ></a>
