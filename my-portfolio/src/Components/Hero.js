@@ -62,7 +62,7 @@ function Hero() {
             </a>
           </Col>
 
-          <Col lg={6} className="p-3">
+          <Col lg={6} className="p-3 pb-5">
 <img className="img-fluid profile-img"src = {profile}></img>
           </Col>
         </Row>
