@@ -37,7 +37,7 @@ function Skills() {
           </div>
         </Col>
         <Col lg={3} className="p-4">
-        <div className="skills-div d-flex flex-column justify-content-center align-items-center">
+        <div className="skills-div d-flex flex-column justify-content-center align-items-center ">
             <img src={react}></img>
             <p className="my-2">REACT</p>
           </div>
