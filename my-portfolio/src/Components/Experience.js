@@ -21,7 +21,7 @@ function Experience() {
                 <span>Full Stack Developer</span>
               </h3>
               <p className="fw-bold text-dark fs-6">Godigitify Nexus</p>
-              <p>
+              <p className="company-content">
               At Godigitify Nexus, I spent over 1.5 years as a Full Stack Developer, contributing to the development of digital solutions. I specialized in frontend and backend development, collaborating with cross-functional teams to deliver scalable, high-quality applications that met client objectives.
               </p>
               <a href="https://www.godigitify.com/" target="_blank">Visit Website</a>
