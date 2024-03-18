@@ -293,3 +293,19 @@ ul li a {
   background-color: #ca0018;
   color: #fff;
 }
+
+
+
+
+
+
+/* Skills-section */
+.skills-div{
+	padding: 15px;
+	border-radius: 20px;
+	background-color: #ffffff;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.18)
+}
+.skills-div img{
+	max-width: 90px;
+}
