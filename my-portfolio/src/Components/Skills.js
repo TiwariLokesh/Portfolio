@@ -5,6 +5,8 @@ import html from "../Images/html.png";
 import css from '../Images/css.png';
 import js from '../Images/js.png';
 import react from '../Images/react.png';
+import Button from "react-bootstrap/Button";
+
 function Skills() {
   return (
     <Container className="pt-5 pb-5">
@@ -42,6 +44,10 @@ function Skills() {
             <p className="my-2">REACT</p>
           </div>
         </Col>
+      </Row>
+
+      <Row className="pb-5 pt-5"> 
+        <Col className="d-flex justify-content-center pb-5"><Button variant=" project-button">View More Skills</Button></Col>
       </Row>
     </Container>
   );
