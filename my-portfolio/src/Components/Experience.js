@@ -37,7 +37,7 @@ function Experience() {
               At Techlearns Academy, I served as a Trainer for 1.5+ years, delivering technical training courses and conducting guest lectures and seminars. I provided hands-on guidance and developed curriculum content to enhance learning outcomes for students.
               </p>
               <a href="https://www.techlearns.in/" target="_blank">Visit Website</a>
-              <span className="date">February 2021</span>
+              <span className="date">January 2023</span>
               <span className="circle"></span>
             </li>
           </ul>
