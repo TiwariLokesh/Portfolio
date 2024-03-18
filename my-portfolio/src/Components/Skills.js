@@ -1,19 +1,19 @@
-import React from 'react'
-import '../Stylings/Home.css'
-import { Container, Row, Col } from 'react-bootstrap'
+import React from "react";
+import "../Stylings/Home.css";
+import { Container, Row, Col } from "react-bootstrap";
 function Skills() {
   return (
-   <Container>
+    <Container className="pt-5 pb-5">
       <Row className="pb-5">
         <div className="text-center project-heading">
           My <span>Skills</span>
         </div>
         <p className="project-para pb-5">
-          Browse through my extensive industry experience.
+          Skills and Stacks Expertise Developed .
         </p>
       </Row>
-   </Container>
-  )
+    </Container>
+  );
 }
 
-export default Skills
+export default Skills;
