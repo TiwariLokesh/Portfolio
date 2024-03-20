@@ -43,7 +43,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-
+import '../Layout/Statusbar.css'
 
 function Statusbar() {
   return (
@@ -51,7 +51,7 @@ function Statusbar() {
       {[false].map((expand) => (
         <Navbar sticky="top" key={expand} expand={expand} className="mb-3 px-3">
           <Container fluid>
-            <Navbar.Brand href="#"></Navbar.Brand>
+            <Navbar.Brand href="#"> <p  className='nav-logo'>Lokesh <span  className='nav-logo' > Tiwari </span></p></Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
