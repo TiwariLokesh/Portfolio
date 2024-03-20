@@ -21,7 +21,7 @@ function Hero() {
               Greetings, I am Lokesh Tiwari, an accomplished{" "}
               <span className="special">Full Stack Developer</span> at{" "}
               <span className="special">Godigitify Nexus. </span>
-              With over a <span className="special">1+</span> year of industry
+              With over a <span className="special">1.5+</span> year of industry
               experience, I am fervently dedicated to harnessing web
               technologies to craft captivating digital experiences. My
               proficiency extends across the entire spectrum of web development,
