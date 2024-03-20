@@ -60,15 +60,15 @@ function Statusbar() {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  Offcanvas
+                  MENU
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                <Nav.Link href="#action1" active>Home</Nav.Link>
-           <Nav.Link href="#action2">My Projects</Nav.Link>
-           <Nav.Link href="#action2">My Blogs</Nav.Link>
-            <Nav.Link href="#action2">My Workshop</Nav.Link>
+                <Nav.Link href="#action1" active>HOME</Nav.Link>
+           <Nav.Link href="#action2">MY PROJECTS</Nav.Link>
+           <Nav.Link href="#action2">MY BLOGS</Nav.Link>
+            <Nav.Link href="#action2">MY WORKSHOP</Nav.Link>
                   </Nav>
                   <Button variant=" button-color my-1">Contact</Button>
               </Offcanvas.Body>
