@@ -11,8 +11,8 @@ function Hero() {
             <p className="hero-para">
               <i>Hello!!!</i>
             </p>
-            <h3 className="hero-h3">
-              I'm <span>Lokesh Tiwari</span>
+            <h3 className="hero-h3 d-flex justify-content-start align-items-center">
+              I'm <span className="mx-1">Lokesh Tiwari</span>
             </h3>
             <h4 className="hero-h4 py-1">
               Iam a <span className="special">Web Developer</span>
