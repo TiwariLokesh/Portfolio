@@ -1,7 +1,7 @@
 import React from "react";
 import styled, { keyframes, css } from "styled-components";
 import { Button } from "react-bootstrap"; // Import Button component from react-bootstrap
-import { Row } from 'react-bootstrap';
+import { Row } from "react-bootstrap";
 
 function Skills() {
   const row1 = [
@@ -11,7 +11,6 @@ function Skills() {
     "https://cdn.freelogovectors.net/wp-content/uploads/2023/02/react-logo-freelogovectors.net_.png",
     "https://www.dotnettricks.com/images/technologies/expressjs.svg",
     "https://miro.medium.com/v2/resize:fit:940/1*ZYxFlLbfeUClk5cScVxZxw.png",
-   
   ];
 
   const row2 = [
@@ -21,55 +20,54 @@ function Skills() {
     "https://logowik.com/content/uploads/images/911_c_logo.jpg",
     "https://1000logos.net/wp-content/uploads/2020/08/Python-Logo.png",
     "https://assets-global.website-files.com/5ee732bebd9839b494ff27cd/5eef857ac5443d6519886e5a_PS.png",
-   
   ];
 
   return (
-   <div className="overflow-hidden">
-    <AppContainer>
-      <Wrapper>
-      <Row>
-        <div className="text-center project-heading">
-          My <span>Skills</span>
-        </div>
-        <p className="project-para pb-5">
-          Skills and Stacks Expertise Developed .
-        </p>
-      </Row>
-        <Marquee>
-          <MarqueeGroup>
-            {row1.map((el) => (
-              <ImageGroup>
-                <Image src={el} />
-              </ImageGroup>
-            ))}
-          </MarqueeGroup>
-          <MarqueeGroup>
-            {row1.map((el) => (
-              <ImageGroup>
-                <Image src={el} />
-              </ImageGroup>
-            ))}
-          </MarqueeGroup>
-        </Marquee>
-        <Marquee>
-          <MarqueeGroup2>
-            {row2.map((el) => (
-              <ImageGroup>
-                <Image src={el} />
-              </ImageGroup>
-            ))}
-          </MarqueeGroup2>
-          <MarqueeGroup2>
-            {row2.map((el) => (
-              <ImageGroup>
-                <Image src={el} />
-              </ImageGroup>
-            ))}
-          </MarqueeGroup2>
-        </Marquee>
-      </Wrapper>
-    </AppContainer>
+    <div className="overflow-hidden">
+      <AppContainer>
+        <Wrapper>
+          <Row>
+            <div className="text-center project-heading">
+              My <span>Skills</span>
+            </div>
+            <p className="project-para pb-5">
+              Skills and Stacks Expertise Developed .
+            </p>
+          </Row>
+          <Marquee>
+            <MarqueeGroup>
+              {row1.map((el) => (
+                <ImageGroup>
+                  <Image src={el} />
+                </ImageGroup>
+              ))}
+            </MarqueeGroup>
+            <MarqueeGroup>
+              {row1.map((el) => (
+                <ImageGroup>
+                  <Image src={el} />
+                </ImageGroup>
+              ))}
+            </MarqueeGroup>
+          </Marquee>
+          <Marquee>
+            <MarqueeGroup2>
+              {row2.map((el) => (
+                <ImageGroup>
+                  <Image src={el} />
+                </ImageGroup>
+              ))}
+            </MarqueeGroup2>
+            <MarqueeGroup2>
+              {row2.map((el) => (
+                <ImageGroup>
+                  <Image src={el} />
+                </ImageGroup>
+              ))}
+            </MarqueeGroup2>
+          </Marquee>
+        </Wrapper>
+      </AppContainer>
     </div>
   );
 }
@@ -171,5 +169,3 @@ const Image = styled.img`
   padding: 5px 20px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 `;
-
-

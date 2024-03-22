@@ -16,7 +16,7 @@ function Statusbar() {
   return (
     <>
       {[false].map((expand) => (
-        <Navbar sticky="top" key={expand} expand={expand} className="mb-3 px-3">
+        <Navbar sticky="top" key={expand} expand={expand} className=" px-3">
           <Container fluid>
             <Link className='nav-link' to="/"> <p className='nav-logo' >Lokesh <span className='nav-logo'> Tiwari </span></p></Link>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
