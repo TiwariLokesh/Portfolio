@@ -45,6 +45,7 @@ function Statusbar() {
         <Route path='/' element={<Home/>} />
         <Route path='/myproject' element={<MyProject/>}/>
         <Route path='/myblogs' element={<MyBlogs/>}/>
+        <Route path='/myworkshop' element={<MyWorkshop/>}/>
       </Routes>
     </>
   );
