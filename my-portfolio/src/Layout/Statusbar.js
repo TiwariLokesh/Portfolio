@@ -10,6 +10,7 @@ import Home from '../Pages/Home';
 import MyProject from '../Pages/MyProject';
 import MyBlogs from '../Pages/MyBlogs';
 import MyWorkshop from '../Pages/MyWorkshop';
+import Contact from '../Pages/Contact';
 
 function Statusbar() {
   return (
@@ -48,6 +49,7 @@ function Statusbar() {
         <Route path='/myproject' element={<MyProject/>}/>
         <Route path='/myblogs' element={<MyBlogs/>}/>
         <Route path='/myworkshop' element={<MyWorkshop/>}/>
+        <Route path='/contact' element={<Contact/>}/>
       </Routes>
     </>
   );
