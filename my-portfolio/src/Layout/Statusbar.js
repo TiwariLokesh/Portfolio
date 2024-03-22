@@ -1,3 +1,4 @@
+import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -16,7 +17,7 @@ function Statusbar() {
       {[false].map((expand) => (
         <Navbar sticky="top" key={expand} expand={expand} className="mb-3 px-3">
           <Container fluid>
-            <Navbar.Brand href="#"> <p  className='nav-logo'>Lokesh <span  className='nav-logo' > Tiwari </span></p></Navbar.Brand>
+            <Link className='nav-link' to="/"> <p className='nav-logo' >Lokesh <span className='nav-logo'> Tiwari </span></p></Link>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
@@ -30,12 +31,13 @@ function Statusbar() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                <Link to="/">HOME</Link>
-           <Link to="/myproject">MY PROJECTS</Link>
-           <Link to="/myblogs">MY BLOGS</Link>
-           <Link to="/myworkshop">MY WORKSHOP</Link>
-                  </Nav>
-                  <Button variant=" button-color my-1">Contact</Button>
+                  <Link to="/" className="nav-link">HOME</Link>
+                  <Link to="/myproject" className="nav-link">MY PROJECTS</Link>
+                  <Link to="/myblogs" className="nav-link">MY BLOGS</Link>
+                  <Link to="/myworkshop" className="nav-link">MY WORKSHOP</Link>
+                </Nav>
+                {/* Style the button using inline styles */}
+                <Button className="my-2" variant=" button-color">Contact Us</Button>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
           </Container>
