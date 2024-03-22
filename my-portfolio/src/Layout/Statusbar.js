@@ -34,7 +34,6 @@ function Statusbar() {
            <Link to="/myproject">MY PROJECTS</Link>
            <Link to="/myblogs">MY BLOGS</Link>
            <Link to="/myworkshop">MY WORKSHOP</Link>
-           
                   </Nav>
                   <Button variant=" button-color my-1">Contact</Button>
               </Offcanvas.Body>
@@ -45,6 +44,7 @@ function Statusbar() {
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/myproject' element={<MyProject/>}/>
+        <Route path='/myblogs' element={<MyBlogs/>}/>
       </Routes>
     </>
   );
