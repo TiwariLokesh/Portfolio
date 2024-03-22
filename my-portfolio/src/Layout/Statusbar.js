@@ -37,7 +37,7 @@ function Statusbar() {
                   <Link to="/myworkshop" className="nav-link">MY WORKSHOP</Link>
                 </Nav>
                 {/* Style the button using inline styles */}
-                <Button className="my-2" variant=" button-color">Contact Us</Button>
+                <Link to="/contact"><Button className="my-2" variant=" button-color">Contact Us</Button></Link>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
           </Container>
