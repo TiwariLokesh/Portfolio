@@ -1,8 +1,7 @@
 import React from "react";
 import styled, { keyframes, css } from "styled-components";
 import { Button } from "react-bootstrap"; // Import Button component from react-bootstrap
-import html from '../Images/html.png'
-import { Container, Row } from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
 
 function Skills() {
   const row1 = [
