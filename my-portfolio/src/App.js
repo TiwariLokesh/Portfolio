@@ -6,7 +6,7 @@ function App() {
   return (
    <>
    <Statusbar></Statusbar>
-   <Home></Home>
+   
    </>
   );
 }
