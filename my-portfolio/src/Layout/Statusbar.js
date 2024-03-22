@@ -33,9 +33,8 @@ function Statusbar() {
                 <Link to="/">HOME</Link>
            <Link to="/myproject">MY PROJECTS</Link>
            <Link to="/myblogs">MY BLOGS</Link>
+           <Link to="/myworkshop">MY WORKSHOP</Link>
            
-           {/* <Nav.Link href="#action2">MY BLOGS</Nav.Link>
-            <Nav.Link href="#action2">MY WORKSHOP</Nav.Link> */}
                   </Nav>
                   <Button variant=" button-color my-1">Contact</Button>
               </Offcanvas.Body>
