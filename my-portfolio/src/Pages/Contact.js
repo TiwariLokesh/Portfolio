@@ -1,9 +1,17 @@
 import React from 'react'
 import ContactForm from '../Components/ContactForm'
+import {Container ,Row,Col} from 'react-bootstrap'
 function Contact() {
   return (
    <>
-   <ContactForm/>
+   <Container>
+<Row>
+  <Col md={6}>
+  <ContactForm/>
+  </Col>
+</Row>
+   </Container>
+   
    </>
   )
 }
