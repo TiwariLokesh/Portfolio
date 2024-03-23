@@ -5,8 +5,11 @@ function Contact() {
   return (
    <>
    <Container>
+    <Row>
+      <h2 className='text-center'>Contact Us</h2>
+    </Row>
 <Row>
-  <Col md={6}>
+  <Col md={6} className='border'>
   <ContactForm/>
   </Col>
 </Row>
