@@ -3,7 +3,7 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 
-function GridComplexExample() {
+function ContactForm() {
   return (
     <Form>
       <Row className="mb-3">
@@ -59,4 +59,4 @@ function GridComplexExample() {
   );
 }
 
-export default GridComplexExample;
+export default ContactForm;
