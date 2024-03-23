@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row';
 
 function ContactForm() {
   return (
+    <div></div>
     <Form>
       <Row className="mb-3">
         <Form.Group as={Col} controlId="formGridEmail">
