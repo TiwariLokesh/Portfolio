@@ -1,9 +1,9 @@
 import React from 'react'
-import ContactHeader from '../Components/ContactHeader'
+import ContactForm from '../Components/ContactForm'
 function Contact() {
   return (
    <>
-   <ContactHeader/>
+   <ContactForm/>
    </>
   )
 }
