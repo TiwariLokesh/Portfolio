@@ -9,7 +9,7 @@ function Contact() {
       <h2 className='text-center'>Contact Us</h2>
     </Row>
 <Row>
-  <Col md={6} className='border'>
+  <Col md={6}>
   <ContactForm/>
   </Col>
 </Row>
