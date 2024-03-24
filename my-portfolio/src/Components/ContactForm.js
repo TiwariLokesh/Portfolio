@@ -17,7 +17,7 @@ function ContactForm() {
           <Form.Label>Email</Form.Label>
           <Form.Control type="email" placeholder="Enter Email" />
         </Form.Group>
-      
+      </Row>
 
       <Form.Group className="mb-3" controlId="formGridAddress1">
         <Form.Label>Address</Form.Label>
