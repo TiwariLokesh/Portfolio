@@ -23,7 +23,7 @@ function ContactForm() {
   };
 
   return (
-    <div className="contact-form-container shadow">
+    <div className="contact-form-container shadow ">
       <Form onSubmit={handleSubmit}>
         <Form.Group controlId="formName">
           <Form.Label>Name</Form.Label>
@@ -85,7 +85,7 @@ function ContactForm() {
           />
         </Form.Group>
 
-        <Button className="submit-button" variant="primary" type="submit">
+        <Button className="submit-button button-color" variant="" type="submit">
           Submit
         </Button>
       </Form>
