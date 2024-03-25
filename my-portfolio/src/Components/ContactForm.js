@@ -19,19 +19,19 @@ function ContactForm() {
         </Form.Group>
       </Row>
 
-      <Form.Group className="mb-3" controlId="formGridAddress1">
+      <Form.Group as={Row} className="mb-3" controlId="formGridAddress1">
         <Form.Label>Address</Form.Label>
         <Form.Control placeholder="Address" />
       </Form.Group>
 
 
       <Row className="mb-3">
-        <Form.Group as={Col} controlId="formGridCity">
+        <Form.Group as={Row} controlId="formGridCity">
           <Form.Label>City</Form.Label>
           <Form.Control />
         </Form.Group>
 
-        <Form.Group as={Col} controlId="formGridState">
+        <Form.Group as={Row} controlId="formGridState">
           <Form.Label>State</Form.Label>
           <Form.Select defaultValue="Choose...">
             <option>Choose...</option>
