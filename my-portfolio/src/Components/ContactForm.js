@@ -8,12 +8,12 @@ function ContactForm() {
     <div>
     <Form>
       <Row className="mb-3">
-        <Form.Group as={Col} controlId="formGridEmail">
+        <Form.Group as={Row} controlId="formGridEmail">
           <Form.Label>Name</Form.Label>
           <Form.Control type="text" placeholder="Enter Name" />
         </Form.Group>
 
-        <Form.Group as={Col} controlId="formGridPassword">
+        <Form.Group as={Row} controlId="formGridPassword">
           <Form.Label>Email</Form.Label>
           <Form.Control type="email" placeholder="Enter Email" />
         </Form.Group>
