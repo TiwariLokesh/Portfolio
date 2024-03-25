@@ -23,7 +23,7 @@ function ContactForm() {
   };
 
   return (
-    <Container className='contact-form-container'>
+    <Container className='contact-form-container shadow'>
       <Form onSubmit={handleSubmit}>
         
           <Row>

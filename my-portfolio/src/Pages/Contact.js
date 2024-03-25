@@ -16,12 +16,12 @@ function Contact() {
           </p>
         </Row>
         <Row>
-          <Col md={6}>
+          <Col lg={6}>
             <ContactForm />
           </Col>
 
-          <Col md={6}>
-          <img  style={{width:"90%"}} src={FormImg}></img>
+          <Col lg={6}>
+          <img style={{ width: "90%", margin: "20px 0px" }} src={FormImg} alt="Form" />
           </Col>
         </Row>
       </Container>
