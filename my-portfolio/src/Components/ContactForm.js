@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Form, Button } from 'react-bootstrap';
+import { Form, Button, Container,Row, Col } from 'react-bootstrap';
 import '../Stylings/Contact.css'; // Import CSS for custom styling
 
 function ContactForm() {
@@ -23,8 +23,11 @@ function ContactForm() {
   };
 
   return (
-    <div className="contact-form-container shadow ">
+    <Container className='contact-form-container'>
       <Form onSubmit={handleSubmit}>
+        
+          <Row>
+            <Col md={12}>
         <Form.Group controlId="formName">
           <Form.Label className='fw-medium'>Name</Form.Label>
           <Form.Control 
@@ -36,7 +39,9 @@ function ContactForm() {
             required 
           />
         </Form.Group>
+        </Col>
 
+        <Col md={12}>
         <Form.Group controlId="formEmail">
           <Form.Label className='pt-3 fw-medium'>Email</Form.Label>
           <Form.Control 
@@ -48,9 +53,11 @@ function ContactForm() {
             required 
           />
         </Form.Group>
+        </Col>
 
+        <Col md={12}>
         <Form.Group controlId="formAddress">
-          <Form.Label  className='pt-3 fw-medium'>Address</Form.Label>
+          <Form.Label className='pt-3 fw-medium'>Address</Form.Label>
           <Form.Control 
             type="text" 
             placeholder="Enter your address" 
@@ -60,9 +67,11 @@ function ContactForm() {
             required 
           />
         </Form.Group>
+        </Col>
 
+        <Col md={12}>
         <Form.Group controlId="formCity">
-          <Form.Label  className='pt-3 fw-medium'>City</Form.Label>
+          <Form.Label className='pt-3 fw-medium'>City</Form.Label>
           <Form.Control 
             type="text" 
             placeholder="Enter your city" 
@@ -72,9 +81,11 @@ function ContactForm() {
             required 
           />
         </Form.Group>
+        </Col>
 
+        <Col md={12}>
         <Form.Group controlId="formState">
-          <Form.Label  className='pt-3 fw-medium'>State</Form.Label>
+          <Form.Label className='pt-3 fw-medium'>State</Form.Label>
           <Form.Control 
             type="text" 
             placeholder="Enter your state" 
@@ -84,13 +95,56 @@ function ContactForm() {
             required 
           />
         </Form.Group>
-
+        </Col>
+        
+        <Col md={12}>
         <Button className="submit-button button-color" variant="" type="submit">
           Submit
         </Button>
+        </Col>
+        </Row>
+        
       </Form>
-    </div>
+      </Container>
   );
 }
 
 export default ContactForm;
+
+// import { Container } from 'react-bootstrap';
+// import Col from 'react-bootstrap/Col';
+// import Form from 'react-bootstrap/Form';
+// import Row from 'react-bootstrap/Row';
+
+// function GridBasicExample() {
+//   return (
+    
+//     <Form>
+//       <Container>
+//       <Row>
+//         <Col md={12}>
+//         <Form.Label className='pt-3 fw-medium'>Name</Form.Label>
+//           <Form.Control placeholder="Enter your name" type='text'  name="name" onChange={handleChange} required/>
+//         </Col>
+
+//         <Col>
+//         <Form.Label className='pt-3 fw-medium'>Email</Form.Label>
+//           <Form.Control placeholder="Enter your name"type='email'  name="email" onChange={handleChange} required />
+//         </Col>
+
+//         <Col>
+//         <Form.Label className='pt-3 fw-medium'>Address</Form.Label>
+//           <Form.Control placeholder="Enter your address"type='text'  name="address" onChange={handleChange} required />
+//         </Col>
+
+//         <Col>
+//         <Form.Label className='pt-3 fw-medium'>City</Form.Label>
+//           <Form.Control placeholder="Last name"type='email'  name="email" onChange={handleChange} required />
+//         </Col>
+//       </Row>
+//       </Container>
+//     </Form>
+//   );
+// }
+
+// export default GridBasicExample;
