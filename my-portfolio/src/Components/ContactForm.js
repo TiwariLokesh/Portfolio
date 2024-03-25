@@ -23,7 +23,7 @@ function ContactForm() {
   };
 
   return (
-    <div className="contact-form-container">
+    <div className="contact-form-container shadow">
       <Form onSubmit={handleSubmit}>
         <Form.Group controlId="formName">
           <Form.Label>Name</Form.Label>
@@ -50,7 +50,7 @@ function ContactForm() {
         </Form.Group>
 
         <Form.Group controlId="formAddress">
-          <Form.Label>Address</Form.Label>
+          <Form.Label  className='pt-4'>Address</Form.Label>
           <Form.Control 
             type="text" 
             placeholder="Enter your address" 
@@ -62,7 +62,7 @@ function ContactForm() {
         </Form.Group>
 
         <Form.Group controlId="formCity">
-          <Form.Label>City</Form.Label>
+          <Form.Label  className='pt-4'>City</Form.Label>
           <Form.Control 
             type="text" 
             placeholder="Enter your city" 
@@ -74,7 +74,7 @@ function ContactForm() {
         </Form.Group>
 
         <Form.Group controlId="formState">
-          <Form.Label>State</Form.Label>
+          <Form.Label  className='pt-4'>State</Form.Label>
           <Form.Control 
             type="text" 
             placeholder="Enter your state" 
