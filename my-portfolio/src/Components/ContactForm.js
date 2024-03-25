@@ -38,7 +38,7 @@ function ContactForm() {
         </Form.Group>
 
         <Form.Group controlId="formEmail">
-          <Form.Label>Email</Form.Label>
+          <Form.Label className='pt-4'>Email</Form.Label>
           <Form.Control 
             type="email" 
             placeholder="Enter your email" 
