@@ -1,12 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
+
 function MyInformation() {
   return (
     <div>
-      <Container fluid>
+      <Container>
         <Row>
-          <Col></Col>
+          <Col md={4}><i class="fa-solid fa-location-dot"></i></Col>
         </Row>
       </Container>
     </div>
