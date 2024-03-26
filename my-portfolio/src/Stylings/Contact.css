@@ -16,5 +16,13 @@ background-color: #ca0018;
 color: #fff;
   }
   
-  /* Add more custom styling as needed */
-  
+.information-part{
+  background-color: #fc899656;
+}
+
+.font-icon{
+  padding: 15px 15px;
+  border-radius: 50px;
+  background-color: #ca0018;
+  color: #fff;
+}
