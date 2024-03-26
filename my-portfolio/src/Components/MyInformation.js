@@ -1,14 +1,16 @@
-import React from 'react'
-import { Container } from 'react-bootstrap'
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
 
 function MyInformation() {
   return (
     <div>
-        <Container fluid>
-
-        </Container>
+      <Container fluid>
+        <Row>
+          <Col></Col>
+        </Row>
+      </Container>
     </div>
-  )
+  );
 }
 
-export default MyInformation
+export default MyInformation;
