@@ -17,12 +17,16 @@ color: #fff;
   }
   
 .information-part{
+  width:100%;
+  max-height: 200px;
   background-color: #fc899656;
 }
 
 .font-icon{
   padding: 15px 15px;
+  font-size: 2rem;
   border-radius: 50px;
-  background-color: #ca0018;
-  color: #fff;
+  background-color: #fff;
+  color:#ca0018;
+  box-shadow: 2px 2px 5px #7575759f;
 }

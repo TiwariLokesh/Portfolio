@@ -55,12 +55,12 @@
 .icons {
   margin-left: -10px;
 }
-.button-color {
+.button-color{
   border: 1px solid #ca0018;
   color: #ca0018;
   border-radius: 50px;
 }
-.button-color:hover {
+.button-color:hover{
   background-color: #ca0018;
   color: #fff;
 border: 1px solid #ca0018;
