@@ -17,8 +17,6 @@ color: #fff;
   }
   
 .information-part{
-  width:100%;
-  
   background-color: #fc89963e;
 }
 
@@ -26,7 +24,6 @@ color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
   width:60px ;
   height: 60px;
   font-size: 2rem;
@@ -39,4 +36,11 @@ color: #fff;
 .font-icon:hover{
   background-color: #ca0018;
   color: #fff;
+}
+
+.data{
+
+ 
+  border-radius: 50px;
+  color: #ca0018;
 }
