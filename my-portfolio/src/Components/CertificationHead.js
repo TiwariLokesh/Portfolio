@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import '../Stylings/Certifications.css'
+import Certification from '../Images/Certification.png'
 function CertificationHead() {
   return (
     <>
@@ -17,7 +18,7 @@ function CertificationHead() {
           </Col>
 
           <Col md={6}>
-          
+          <img style={{width:"100%"}} src={Certification}></img>
           </Col>
         </Row>
       </Container>
