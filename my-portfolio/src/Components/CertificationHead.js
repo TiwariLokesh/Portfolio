@@ -17,7 +17,7 @@ function CertificationHead() {
             <p className="text-justify">Continual learning keeps me abreast of industry advancements, ensuring innovative solutions and exceeding expectations.</p>
           </Col>
 
-          <Col md={6}>
+          <Col md={6} className="certificate-img">
           <img style={{width:"100%"}} src={Certification}></img>
           </Col>
         </Row>
