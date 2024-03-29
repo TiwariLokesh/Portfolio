@@ -7,10 +7,10 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import '../Layout/Statusbar.css'
 import { Routes, Route, Link } from 'react-router-dom';
 import Home from '../Pages/Home';
-import MyProject from '../Pages/MyCertifications';
 import MyBlogs from '../Pages/MyBlogs';
 import MyWorkshop from '../Pages/MyWorkshop';
 import Contact from '../Pages/Contact';
+import MyCertifications from '../Pages/MyCertifications';
 
 function Statusbar() {
   return (
@@ -33,7 +33,7 @@ function Statusbar() {
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                   <Link to="/" className="nav-link">HOME</Link>
-                  <Link to="/myproject" className="nav-link">MY CERTIFICATIONS</Link>
+                  <Link to="/mycertifications" className="nav-link">MY CERTIFICATIONS</Link>
                   <Link to="/myblogs" className="nav-link">MY BLOGS</Link>
                   <Link to="/myworkshop" className="nav-link">MY WORKSHOP</Link>
                 </Nav>
@@ -46,7 +46,7 @@ function Statusbar() {
       ))}
       <Routes>
         <Route path='/' element={<Home/>} />
-        <Route path='/myproject' element={<MyProject/>}/>
+        <Route path='/mycertifications' element={<MyCertifications/>}/>
         <Route path='/myblogs' element={<MyBlogs/>}/>
         <Route path='/myworkshop' element={<MyWorkshop/>}/>
         <Route path='/contact' element={<Contact/>}/>

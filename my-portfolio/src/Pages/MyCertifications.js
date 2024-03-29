@@ -1,10 +1,11 @@
 import React from 'react'
+import CertificationHead from '../Components/CertificationHead'
 
 
 function MyCertifications() {
   return (
     <div>
-      <h1>Hello World</h1>
+  <CertificationHead/>
     </div>
   )
 }
