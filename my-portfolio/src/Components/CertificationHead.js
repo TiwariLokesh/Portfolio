@@ -18,7 +18,7 @@ function CertificationHead() {
           </Col>
 
           <Col md={6} className="certificate-img">
-          <img style={{width:"100%"}} src={Certification}></img>
+          <img style={{width:"80%"}} src={Certification}></img>
           </Col>
         </Row>
       </Container>
