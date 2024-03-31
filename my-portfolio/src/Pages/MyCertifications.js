@@ -4,10 +4,15 @@ import CertificateCard from '../Components/CertificateCard'
 
 function MyCertifications() {
   return (
+    <>
+    <div> <CertificationHead/> </div>
     <div>
-  <CertificationHead/>
-  <CertificateCard/>
+    <p className="project-para pb-5 fs-2 pt-5">
+    <span className='text-muted project-para fs-2'>Delve into</span> <br/>My Certified Proficiency
+        </p>
+        <CertificateCard/>
     </div>
+    </>
   )
 }
 
