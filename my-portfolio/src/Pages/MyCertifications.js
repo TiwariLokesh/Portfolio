@@ -21,7 +21,7 @@ function MyCertifications() {
         <Container>
           <Row>
             {CertificateData.map((row, index) => (
-              <Col key={index} md={4}>
+              <Col key={index} md={4} className="gy-4">
                 <CertificateCard data={row} />
               </Col>
             ))}

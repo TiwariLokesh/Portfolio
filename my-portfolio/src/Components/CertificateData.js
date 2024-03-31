@@ -11,7 +11,11 @@ const CertificateData = [
   },
   {
     heading: "GOOGLE CLOUD",
-    disc: "Professionally certified in Graphic Designing, adept in Adobe Photoshop and Canva, specializing in creative design solutions, brand identity development, and compelling visual storytelling techniques."
+    disc: "Certified in Google Cloud Computing Foundations & Generative AI, equipped with essential skills for navigating Google Cloud. Prepared to excel in cloud computing with a deep understanding of core concepts."
+  },
+  {
+    heading: "WORKSHOP",
+    disc: "Conducted a workshop on web development and graphic design at Garden Valley Public School with support from Techlearns Academy. Excited to inspire and educate future tech and design enthusiasts."
   },
 ];
 
