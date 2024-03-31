@@ -8,7 +8,7 @@ function CertificationHead() {
       <Container>
         <Row>
           <Col md={6} className="certificate-para pt-5 pb-5">
-          <div className="pt-5 project-heading">
+          <div className="pt-5 project-heading ">
               My <span>CERTIFICATIONS</span>
             </div>
             <p className="text-justify">My certifications represent dedication and expertise in my field, strengthening my skills with each earned credential.</p>
