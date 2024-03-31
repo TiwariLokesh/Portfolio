@@ -1,7 +1,7 @@
 import React from 'react';
 import { CDBCard, CDBCardBody, CDBContainer } from 'cdbreact';
 import Button from 'react-bootstrap/Button';
-im
+import '../Stylings/Certifications.css'
 
 const CertificateCard = (props) => {
   return (
