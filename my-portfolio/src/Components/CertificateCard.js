@@ -1,11 +1,12 @@
 import React from 'react';
 import { CDBCard, CDBCardBody, CDBContainer } from 'cdbreact';
 import Button from 'react-bootstrap/Button';
+i
 
 const CertificateCard = (props) => {
   return (
     <div>
-      <CDBContainer className='pt-5'>
+      <CDBContainer className='pt-5 certificate-card'>
         <CDBCard
           style={{ 
             maxWidth: '25rem', // Adjust maximum width
