@@ -6,7 +6,7 @@ import '../Stylings/Certifications.css'
 const CertificateCard = (props) => {
   return (
     <div>
-      <CDBContainer className='pt-5 certificate-card'>
+      <CDBContainer className='pt-5'>
         <CDBCard
           style={{ 
             maxWidth: '25rem', // Adjust maximum width

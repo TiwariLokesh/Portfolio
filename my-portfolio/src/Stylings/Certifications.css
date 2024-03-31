@@ -3,6 +3,12 @@
     font-size: 1.2rem;
     margin-top: 20px;
 }
+.certificate{
+    transition: all 0.4s ease-in-out;
+}
+.certificate:hover{
+transform: translateY(-10px);
+}
 
 
 @media only screen and (max-width:468px){
