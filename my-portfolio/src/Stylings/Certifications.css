@@ -4,6 +4,7 @@
     margin-top: 20px;
 }
 
+
 @media only screen and (max-width:468px){
     .project-heading{
         font-size: 2rem;
