@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 
 const CertificateCard = (props) => {
   return (
-    <CDBContainer className='pt-5'>
+            <CDBContainer className='pt-5'>
       <CDBCard style={{ width: '25rem', borderRadius: "20px", borderColor: "#ca0018", boxShadow: "5px 5px 5px 5px #00000016" }} border className='p-3'>
         <CDBCardBody>
           <h3 className="heading">
@@ -19,6 +19,7 @@ const CertificateCard = (props) => {
         </CDBCardBody>
       </CDBCard>
     </CDBContainer>
+    
   );
 };
 

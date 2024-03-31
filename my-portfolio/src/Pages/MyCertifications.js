@@ -2,6 +2,7 @@ import React from "react";
 import CertificationHead from "../Components/CertificationHead";
 import CertificateCard from "../Components/CertificateCard";
 import CertificateData from "../Components/CertificateData";
+import { Container, Row, Col } from 'react-bootstrap';
 
 function MyCertifications() {
   return (
@@ -17,12 +18,16 @@ function MyCertifications() {
           My Certified Proficiency
         </p>
 
-        {CertificateData.map((row, index) => (
-          <CertificateCard key={index} data={row} />
-        ))}
+        <Container>
+          <Row>
+            {CertificateData.map((row, index) => (
+              <Col key={index} md={4}>
+                <CertificateCard data={row} />
+              </Col>
+            ))}
+          </Row>
+        </Container>
       </div>
-
-      
     </>
   );
 }
