@@ -19,3 +19,13 @@ code {
   border-radius: 5px;
   font-size: 1.2rem;
 }
+.button-cv{
+  border: 1px solid #ca0018;
+  color: #ca0018;
+  border-radius: 50px;
+}
+.button-cv:hover{
+  background-color: #ca0018;
+  color: #fff;
+border: 1px solid #ca0018;
+}

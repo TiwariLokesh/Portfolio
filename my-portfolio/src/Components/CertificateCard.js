@@ -1,5 +1,6 @@
 import React from 'react';
-import { CDBCard, CDBCardBody, CDBBtn, CDBContainer } from 'cdbreact';
+import { CDBCard, CDBCardBody, CDBContainer } from 'cdbreact';
+import Button from 'react-bootstrap/Button';
 
 const CertificateCard = () => {
   return (
@@ -11,9 +12,9 @@ const CertificateCard = () => {
               </h3>
           <p style={{fontSize:"13px",color:"#666",lineHeight:"18px",margin:" 10px 0px 4px 0px",textAlign:"justify"}}>Certified in Web Development encompassing HTML, CSS, JavaScript, jQuery, Bootstrap, and WordPress. Proficient in crafting dynamic and responsive websites with a focus on user experience</p>
           <div className="d-flex justify-content-start">
-            <CDBBtn  style={{color:"#ca0018",backgroundColor:"transparent", border:"1px solid #ca0018",borderRadius:"50px"}} flat >
+            <Button  variant=" px-3 my-1" className='button-cv'>
               See Certificate
-            </CDBBtn>
+            </Button>
           </div>
         </CDBCardBody>
       </CDBCard>

@@ -58,7 +58,7 @@ function Hero() {
             </div>
             <a href="#">
               {" "}
-              <Button variant=" button-color px-3 my-4">Download CV</Button>
+              <Button variant=" button-cv px-3 my-4">Download CV</Button>
             </a>
           </Col>
 
