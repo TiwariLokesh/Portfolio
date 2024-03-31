@@ -28,6 +28,8 @@ function Experience() {
               <span className="date">January 2023</span>
               <span className="circle"></span>
             </li>
+
+
             <li>
               <h3 className="heading">
                 <span>Trainer</span>
@@ -38,6 +40,20 @@ function Experience() {
               </p>
               <a href="https://www.techlearns.in/" target="_blank">Visit Website</a>
               <span className="date">January 2023</span>
+              <span className="circle"></span>
+            </li>
+
+
+            <li>
+              <h3 className="heading">
+                <span className="internship">Internship</span>
+              </h3>
+              <p className="fw-bold text-dark fs-6 gammaprep">Gammaprep</p>
+              <p className="company-content">
+              At Techlearns Academy, I served as a Trainer for 1.5+ years, delivering technical training courses and conducting guest lectures and seminars. I provided hands-on guidance and developed curriculum content to enhance learning outcomes for students.
+              </p>
+              <a href="https://www.techlearns.in/" target="_blank">Visit Website</a>
+              <span className="date internship">January 2023</span>
               <span className="circle"></span>
             </li>
           </ul>
