@@ -19,7 +19,7 @@ function MyCertifications() {
         </p>
 
         <Container>
-          <Row>
+          <Row >
             {CertificateData.map((row, index) => (
               <Col key={index} md={4} className="gy-4">
                 <CertificateCard data={row} />
