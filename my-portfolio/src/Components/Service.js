@@ -11,14 +11,17 @@ const Service = () => {
 
   return (
     <Tab.Container id="tabs-example" activeKey={activeTab} onSelect={handleSelect}>
-      <Row className="d-flex justify-content-center align-items-center flex-column">
+      <Row className="d-flex justify-content-center align-items-center flex">
         <Col xs={12} sm={6} md={4}>
-          <Nav variant="pills" className="d-flex justify-content-center align-items-center flex-column flex-sm-row">
+          <Nav variant="pills" className="d-flex justify-content-center align-items-center flex-row flex-sm-column">
             <Nav.Item>
               <Nav.Link eventKey="1" className="custom-nav-link">
                 <Card className="mb-2">
                   <Card.Body>
-                    Label 1
+                    <div>
+                      <i class="fa-solid fa-house"></i>
+                      <h4>WEB DEVELOPMENT</h4>
+                    </div>
                   </Card.Body>
                 </Card>
               </Nav.Link>
@@ -27,7 +30,10 @@ const Service = () => {
               <Nav.Link eventKey="2" className="custom-nav-link">
                 <Card className="mb-2">
                   <Card.Body>
-                    Label 2
+                    <div>
+                      <i class="fa-solid fa-house"></i>
+                      <h4>WEB DEVELOPMENT</h4>
+                    </div>
                   </Card.Body>
                 </Card>
               </Nav.Link>
@@ -36,7 +42,10 @@ const Service = () => {
               <Nav.Link eventKey="3" className="custom-nav-link">
                 <Card className="mb-2">
                   <Card.Body>
-                    Label 3
+                    <div>
+                      <i class="fa-solid fa-house"></i>
+                      <h4>WEB DEVELOPMENT</h4>
+                    </div>
                   </Card.Body>
                 </Card>
               </Nav.Link>
