@@ -77,8 +77,7 @@ const Service = () => {
                       <p>
                         Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate odit
                         minima. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil
-                        odit magnam minima, soluta doloribus reiciendis molestiae placeat unde eos
-                        molestias.
+                        
                       </p>
                     </div>
                   </Tab.Pane>
