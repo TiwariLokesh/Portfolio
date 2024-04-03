@@ -11,7 +11,7 @@ const Service = () => {
   return (
     <div className="pt-5 pb-5">
          <div className="text-center project-heading">
-              My <span>Skills</span>
+              My <span>Services</span>
             </div>
             <p className="project-para pb-5">
               Skills and Stacks Expertise Developed .
