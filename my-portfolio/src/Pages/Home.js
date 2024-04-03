@@ -3,7 +3,7 @@ import Hero from "../Components/Hero";
 import Projects from "../Components/Projects";
 import Experience from "../Components/Experience";
 import Skills from "../Components/Skills";
-
+import Service from '../Components/Service'
 
 
 
@@ -14,7 +14,7 @@ function Home() {
       <Skills/>
       <Experience/>
       <Projects/>
-      
+      <Service/>
     </>
   );
 }
