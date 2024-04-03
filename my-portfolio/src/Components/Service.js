@@ -22,7 +22,7 @@ const Service = () => {
                 <Nav variant="underline" className="flex-column">
                   <Nav.Item>
                     <Nav.Link eventKey="1" className="custom-nav-link">
-                      <Card className="mb-4">
+                      <Card className="mb-2">
                         <Card.Body>
                           <div>
                             <i className="fa-solid fa-house"></i>
