@@ -2,6 +2,7 @@ import React from 'react';
 import { CDBCard, CDBCardBody, CDBContainer } from 'cdbreact';
 import Button from 'react-bootstrap/Button';
 import '../Stylings/Certifications.css'
+import Modals from './Modals';
 
 const CertificateCard = (props) => {
   return (
@@ -35,7 +36,7 @@ const CertificateCard = (props) => {
             </p>
             <div className="d-flex justify-content-start">
               <Button variant="" className='px-3 my-1 button-cv'>
-                See Certificate
+                See
               </Button>
             </div>
           </CDBCardBody>
