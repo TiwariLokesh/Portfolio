@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { Tab, Nav, Row, Col, Card } from "react-bootstrap";
-
+import { Tab, Nav, Row, Col, Card, Container } from "react-bootstrap";
 
 const Service = () => {
   const [activeTab, setActiveTab] = useState("1");
@@ -10,16 +9,18 @@ const Service = () => {
   };
 
   return (
+    <div className="bg-dark">
+    <Container className="pt-5 pb-5">
     <Tab.Container id="tabs-example" activeKey={activeTab} onSelect={handleSelect}>
-      <Row className="d-flex justify-content-center align-items-center flex">
-        <Col xs={12} sm={6} md={4}>
-          <Nav variant="pills" className="d-flex justify-content-center align-items-center flex-row flex-sm-column">
+      <Row className="justify-content-center align-items-center">
+        <Col xs={12} md={4}>
+          <Nav variant="pills" className="flex-column">
             <Nav.Item>
               <Nav.Link eventKey="1" className="custom-nav-link">
                 <Card className="mb-2">
                   <Card.Body>
                     <div>
-                      <i class="fa-solid fa-house"></i>
+                      <i className="fa-solid fa-house"></i>
                       <h4>WEB DEVELOPMENT</h4>
                     </div>
                   </Card.Body>
@@ -31,7 +32,7 @@ const Service = () => {
                 <Card className="mb-2">
                   <Card.Body>
                     <div>
-                      <i class="fa-solid fa-house"></i>
+                      <i className="fa-solid fa-house"></i>
                       <h4>WEB DEVELOPMENT</h4>
                     </div>
                   </Card.Body>
@@ -43,7 +44,7 @@ const Service = () => {
                 <Card className="mb-2">
                   <Card.Body>
                     <div>
-                      <i class="fa-solid fa-house"></i>
+                      <i className="fa-solid fa-house"></i>
                       <h4>WEB DEVELOPMENT</h4>
                     </div>
                   </Card.Body>
@@ -52,8 +53,8 @@ const Service = () => {
             </Nav.Item>
           </Nav>
         </Col>
-        <Col xs={12} sm={8} md={8}>
-          <Tab.Content>
+        <Col xs={12} md={8}>
+          <Tab.Content className="p-5 text-white">
             <Tab.Pane eventKey="1">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil
@@ -90,6 +91,8 @@ const Service = () => {
         </Col>
       </Row>
     </Tab.Container>
+    </Container>
+    </div>
   );
 };
 
