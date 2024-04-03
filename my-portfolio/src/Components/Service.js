@@ -50,7 +50,7 @@ const Service = () => {
                         <Card.Body>
                           <div>
                             <i className="fa-solid fa-house"></i>
-                            <h4>WEB DEVELOPMENT</h4>
+                            <h4>DIGITAL MARKETING</h4>
                           </div>
                         </Card.Body>
                       </Card>
