@@ -19,7 +19,7 @@ const Service = () => {
           <Tab.Container id="tabs-example" activeKey={activeTab} onSelect={handleSelect}>
             <Row className="justify-content-center align-items-center">
               <Col xs={12} md={4}>
-                <Nav variant="pills" className="flex-column">
+                <Nav variant="underline" className="flex-column">
                   <Nav.Item>
                     <Nav.Link eventKey="1" className="custom-nav-link">
                       <Card className="mb-2">
