@@ -13,8 +13,9 @@ const Service = () => {
       <div className="text-center project-heading">
         My <span>Services</span>
       </div>
-      <p className="project-para pb-5">Skills and Stacks Expertise Developed .</p>
-      <div className="bg-dark">
+      <p className="project-para pb-5">Customized Development Solutions Delivered .</p>
+      <div className="bg-img">
+        <div className="overlay">
         <Container className="pt-5 pb-5">
           <Tab.Container id="tabs-example" activeKey={activeTab} onSelect={handleSelect}>
             <Row className="justify-content-center align-items-center">
@@ -94,6 +95,7 @@ const Service = () => {
             </Row>
           </Tab.Container>
         </Container>
+        </div>
       </div>
     </div>
   );
