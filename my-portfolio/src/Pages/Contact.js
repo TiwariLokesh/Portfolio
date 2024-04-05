@@ -3,6 +3,7 @@ import ContactForm from "../Components/ContactForm";
 import { Container, Row, Col } from "react-bootstrap";
 import FormImg from "../Images/FormImg.png";
 import MyInformation from "../Components/MyInformation";
+import Footer from "../Layout/Footer";
 
 function Contact() {
   return (
@@ -32,6 +33,7 @@ function Contact() {
       </Container>
 
 <MyInformation></MyInformation>
+<Footer/>
     </>
   );
 }
