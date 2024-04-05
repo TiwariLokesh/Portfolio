@@ -13,88 +13,104 @@ const Service = () => {
       <div className="text-center project-heading">
         My <span>Services</span>
       </div>
-      <p className="project-para pb-5">Customized Development Solutions Delivered .</p>
+      <p className="project-para pb-5">
+        Customized Development Solutions Delivered .
+      </p>
       <div className="bg-img">
         <div className="overlay">
-        <Container className="pt-5 pb-5">
-          <Tab.Container id="tabs-example" activeKey={activeTab} onSelect={handleSelect}>
-            <Row className="justify-content-center align-items-center">
-              <Col xs={12} md={4}>
-                <Nav variant="underline" className="flex-column">
-                  <Nav.Item>
-                    <Nav.Link eventKey="1" className="custom-nav-link">
-                      <Card className="mb-2">
-                        <Card.Body>
-                          <div>
-                          <i className="fa-solid fa-laptop" style={{"color": "#404040"}}></i>
-                            <h4>WEB DEVELOPMENT</h4>
-                          </div>
-                        </Card.Body>
-                      </Card>
-                    </Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link eventKey="2" className="custom-nav-link">
-                      <Card className="mb-2">
-                        <Card.Body>
-                          <div>
-                          <i className="fa-solid fa-paintbrush"style={{"color": "#404040"}}></i>
-                            <h4>GRAPHIC DESIGNING</h4>
-                          </div>
-                        </Card.Body>
-                      </Card>
-                    </Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link eventKey="3" className="custom-nav-link">
-                      <Card className="mb-2">
-                        <Card.Body>
-                          <div>
-                          <i class="fa-solid fa-people-group"style={{"color": "#404040"}}></i>
-                            <h4>DIGITAL MARKETING</h4>
-                          </div>
-                        </Card.Body>
-                      </Card>
-                    </Nav.Link>
-                  </Nav.Item>
-                </Nav>
-              </Col>
-              <Col xs={12} md={8}>
-                <Tab.Content className="p-5 text-white">
-                  <Tab.Pane eventKey="1">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam
-                      minima, soluta doloribus reiciendis molestiae placeat unde eos molestias.
-                      
-                    </p>
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="2">
-                    <div>
+          <Container className="pt-5 pb-5">
+            <Tab.Container
+              id="tabs-example"
+              activeKey={activeTab}
+              onSelect={handleSelect}
+            >
+              <Row className="justify-content-center align-items-center">
+                <Col xs={12} md={4}>
+                  <Nav variant="underline" className="flex-column">
+                    <Nav.Item>
+                      <Nav.Link eventKey="1" className="custom-nav-link">
+                        <Card className="mb-2">
+                          <Card.Body>
+                            <div className="project-heading fs-4 fw-medium">
+                              <i
+                                className="fa-solid fa-laptop px-4"
+                                style={{ color: "#000" }}
+                              ></i>
+                              Web <span>Development</span>
+                            </div>
+                          </Card.Body>
+                        </Card>
+                      </Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="2" className="custom-nav-link">
+                        <Card className="mb-2">
+                          <Card.Body>
+                            <div className="project-heading fs-4 fw-medium">
+                              <i
+                                className="fa-solid fa-paintbrush px-4"
+                                style={{ color: "#000" }}
+                              ></i>
+                              Graphic <span>Designing</span>
+                            </div>
+                          </Card.Body>
+                        </Card>
+                      </Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="3" className="custom-nav-link">
+                        <Card className="mb-2">
+                          <Card.Body>
+                            <div className="project-heading fs-4 fw-medium">
+                              <i
+                                class="fa-solid fa-people-group px-4"
+                                style={{ color: "#000" }}
+                              ></i>
+                              Digital <span>Marketing</span>
+                            </div>
+                          </Card.Body>
+                        </Card>
+                      </Nav.Link>
+                    </Nav.Item>
+                  </Nav>
+                </Col>
+                <Col xs={12} md={8} >
+                  <Tab.Content className="p-5 text-white rounded-5 bg-dark ">
+                    <Tab.Pane eventKey="1">
                       <p>
-                        Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate odit
-                        minima. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil
-                       
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Nihil odit magnam minima, soluta doloribus
+                        reiciendis molestiae placeat unde eos molestias.
                       </p>
+                    </Tab.Pane>
+                    <Tab.Pane eventKey="2">
+                      <div>
+                        <p>
+                          Quisquam aperiam, pariatur. Tempora, placeat ratione
+                          porro voluptate odit minima. Lorem ipsum dolor sit
+                          amet, consectetur adipisicing elit. Nihil
+                        </p>
+                        <p>
+                          Quisquam aperiam, pariatur. Tempora, placeat ratione
+                          porro voluptate odit minima. Lorem ipsum dolor sit
+                          amet, consectetur adipisicing elit. Nihil
+                        </p>
+                      </div>
+                    </Tab.Pane>
+                    <Tab.Pane eventKey="3">
                       <p>
-                        Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate odit
-                        minima. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil
-                        
+                        Quisquam aperiam, pariatur. Tempora, placeat ratione
+                        porro voluptate odit minima. Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Nihil odit magnam minima,
+                        soluta doloribus reiciendis molestiae placeat unde eos
+                        molestias.
                       </p>
-                    </div>
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="3">
-                    <p>
-                      Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate odit
-                      minima. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit
-                      magnam minima, soluta doloribus reiciendis molestiae placeat unde eos
-                      molestias.
-                    </p>
-                  </Tab.Pane>
-                </Tab.Content>
-              </Col>
-            </Row>
-          </Tab.Container>
-        </Container>
+                    </Tab.Pane>
+                  </Tab.Content>
+                </Col>
+              </Row>
+            </Tab.Container>
+          </Container>
         </div>
       </div>
     </div>
