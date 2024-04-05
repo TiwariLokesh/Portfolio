@@ -10,7 +10,7 @@ const Service = () => {
 
   return (
     <div className="pt-5 pb-5">
-      <div className="text-center project-heading">
+      <div className="text-center project-heading pt-5">
         My <span>Services</span>
       </div>
       <p className="project-para pb-5">
@@ -78,32 +78,21 @@ const Service = () => {
                   <Tab.Content className="p-5 text-white rounded-5 bg-dark ">
                     <Tab.Pane eventKey="1">
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Nihil odit magnam minima, soluta doloribus
-                        reiciendis molestiae placeat unde eos molestias.
+                      As a seasoned web developer, I specialize in crafting bespoke web solutions that are as unique as your business. With a meticulous attention to detail and a passion for innovation, I bring your ideas to life in the digital realm.
+                      Let's collaborate to bring your vision to life and elevate your online presence to new heights. Whether you're a startup, a small business, or a large corporation, I'm here to help you succeed in the digital world.
                       </p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="2">
                       <div>
                         <p>
-                          Quisquam aperiam, pariatur. Tempora, placeat ratione
-                          porro voluptate odit minima. Lorem ipsum dolor sit
-                          amet, consectetur adipisicing elit. Nihil
+                        With a keen eye for aesthetics and a passion for creativity, I specialize in crafting visually stunning designs that leave a lasting impression. From captivating logos and branding materials to eye-catching marketing collateral, I bring your brand to life with innovative graphic solutions.
                         </p>
-                        <p>
-                          Quisquam aperiam, pariatur. Tempora, placeat ratione
-                          porro voluptate odit minima. Lorem ipsum dolor sit
-                          amet, consectetur adipisicing elit. Nihil
-                        </p>
+                       
                       </div>
                     </Tab.Pane>
                     <Tab.Pane eventKey="3">
                       <p>
-                        Quisquam aperiam, pariatur. Tempora, placeat ratione
-                        porro voluptate odit minima. Lorem ipsum dolor sit amet,
-                        consectetur adipisicing elit. Nihil odit magnam minima,
-                        soluta doloribus reiciendis molestiae placeat unde eos
-                        molestias.
+                      Elevate your online presence and reach your target audience effectively with strategic digital marketing solutions. From search engine optimization (SEO) and pay-per-click (PPC) advertising to social media marketing and content creation, I offer comprehensive strategies tailored to your business goals.
                       </p>
                     </Tab.Pane>
                   </Tab.Content>
