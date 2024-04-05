@@ -3,6 +3,8 @@ import { Container, Row, Col, Button, Image } from 'react-bootstrap';
 import InputGroup from 'react-bootstrap/InputGroup';
 import Form from 'react-bootstrap/Form';
 import '../Layout/footer.css'
+import { Routes, Route, Link } from 'react-router-dom';
+
 export const Footer = () => {
   return (
     <footer className="shadow py-5 foot">
@@ -21,6 +23,12 @@ export const Footer = () => {
         />
         <Button variant="" className='rounded-5 position-absolute end-0' style={{top: '13%', transform: 'translateY(-50%)',transform:"translateX(-10%)",padding:"9px 22px",backgroundColor:"#ca0018",color:"#fff"}}>Subscribe</Button>
       </InputGroup>
+    </Col>
+    <Col md={12} className='d-flex justify-content-center align-items-center gap-5'>
+    <Link to="/" className="nav-link">Certifications</Link>
+                  <Link to="/mycertifications" className="nav-link"> Blogs</Link>
+                  <Link to="/myblogs" className="nav-link"> Workshop</Link>
+                  <Link to="/myworkshop" className="nav-link"> Contact</Link>
     </Col>
         </Row>
       </Container>
