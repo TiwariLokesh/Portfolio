@@ -26,7 +26,7 @@ const Service = () => {
                       <Card className="mb-2">
                         <Card.Body>
                           <div>
-                            <i className="fa-solid fa-house"></i>
+                          <i className="fa-solid fa-laptop" style={{"color": "#404040"}}></i>
                             <h4>WEB DEVELOPMENT</h4>
                           </div>
                         </Card.Body>
@@ -38,7 +38,7 @@ const Service = () => {
                       <Card className="mb-2">
                         <Card.Body>
                           <div>
-                            <i className="fa-solid fa-house"></i>
+                          <i className="fa-solid fa-paintbrush"style={{"color": "#404040"}}></i>
                             <h4>GRAPHIC DESIGNING</h4>
                           </div>
                         </Card.Body>
@@ -50,7 +50,7 @@ const Service = () => {
                       <Card className="mb-2">
                         <Card.Body>
                           <div>
-                            <i className="fa-solid fa-house"></i>
+                          <i class="fa-solid fa-people-group"style={{"color": "#404040"}}></i>
                             <h4>DIGITAL MARKETING</h4>
                           </div>
                         </Card.Body>
