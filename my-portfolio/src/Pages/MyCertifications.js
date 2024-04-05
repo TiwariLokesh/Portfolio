@@ -3,6 +3,7 @@ import CertificationHead from "../Components/CertificationHead";
 import CertificateCard from "../Components/CertificateCard";
 import CertificateData from "../Components/CertificateData";
 import { Container, Row, Col } from 'react-bootstrap';
+import Footer from "../Layout/Footer";
 
 function MyCertifications() {
   return (
@@ -28,6 +29,8 @@ function MyCertifications() {
           </Row>
         </Container>
       </div>
+
+      <Footer/>
     </>
   );
 }

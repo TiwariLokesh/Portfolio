@@ -4,6 +4,10 @@ import InputGroup from 'react-bootstrap/InputGroup';
 import Form from 'react-bootstrap/Form';
 import '../Layout/footer.css'
 import { Routes, Route, Link } from 'react-router-dom';
+import MyCertifications from '../Pages/MyCertifications';
+import MyBlogs from '../Pages/MyBlogs';
+import Contact from '../Pages/Contact';
+import MyWorkshop from '../Pages/MyWorkshop';
 
 export const Footer = () => {
   return (
@@ -32,7 +36,17 @@ export const Footer = () => {
     </Col>
         </Row>
       </Container>
+
+      <Routes>
+        
+        <Route path='/mycertifications' element={<MyCertifications/>}/>
+        <Route path='/myblogs' element={<MyBlogs/>}/>
+        <Route path='/myworkshop' element={<MyWorkshop/>}/>
+        <Route path='/contact' element={<Contact/>}/>
+      </Routes>
     </footer>
+
+    
   );
 };
 

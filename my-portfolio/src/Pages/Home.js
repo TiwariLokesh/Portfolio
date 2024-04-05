@@ -4,6 +4,7 @@ import Projects from "../Components/Projects";
 import Experience from "../Components/Experience";
 import Skills from "../Components/Skills";
 import Service from '../Components/Service'
+import Footer from "../Layout/Footer";
 
 
 
@@ -15,6 +16,7 @@ function Home() {
       <Experience/>
       <Projects/>
       <Service/>
+      <Footer/>
     </>
   );
 }
