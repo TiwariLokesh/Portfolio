@@ -24,7 +24,7 @@ const Service = () => {
               activeKey={activeTab}
               onSelect={handleSelect}
             >
-              <Row className="justify-content-center align-items-center">
+              <Row className="justify-content-center align-items-center gx-5">
                 <Col xs={12} md={4}>
                   <Nav variant="underline" className="flex-column">
                     <Nav.Item>
