@@ -25,10 +25,10 @@ export const Footer = () => {
       </InputGroup>
     </Col>
     <Col md={12} className='d-flex justify-content-center align-items-center gap-5'>
-    <Link to="/" className="nav-link">Certifications</Link>
-                  <Link to="/mycertifications" className="nav-link"> Blogs</Link>
-                  <Link to="/myblogs" className="nav-link"> Workshop</Link>
-                  <Link to="/myworkshop" className="nav-link"> Contact</Link>
+    <Link to="/mycertifications" className="nav-link">Certifications</Link>
+                  <Link to="/myblogs" className="nav-link"> Blogs</Link>
+                  <Link to="/myworkshop" className="nav-link"> Workshop</Link>
+                  <Link to="/contact" className="nav-link"> Contact</Link>
     </Col>
         </Row>
       </Container>
