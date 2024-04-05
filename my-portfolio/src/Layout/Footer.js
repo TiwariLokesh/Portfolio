@@ -7,7 +7,7 @@ export const Footer = () => {
   return (
     <footer className="shadow py-5 foot">
       <Container>
-        <Row className='d-flex justify-content-center align-items-center'>
+        <Row className='d-flex justify-content-center align-items-center gap-4'>
           <Col sm={12} className='d-flex justify-content-center align-items-center text-center'>
           <h2 className='fs-2 fw-normal'>Stay up to date and Reach out for <br/>inquiries or collaborations!</h2>
           </Col>
