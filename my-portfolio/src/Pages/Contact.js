@@ -33,7 +33,10 @@ function Contact() {
       </Container>
 
 <MyInformation></MyInformation>
+<div className="pt-5">
 <Footer/>
+</div>
+
     </>
   );
 }
