@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "../Stylings/Home.css";
-import profile from '../Images/profile.png';
+import profile from "../Images/profile.png";
 function Hero() {
   return (
     <div>
@@ -46,16 +46,11 @@ function Hero() {
                   style={{ color: "#000000" }}
                 ></i>
               </a>
-              <a
-                href="https://www.instagram.com/lokeshtiwari212/"
-                target="_blank"
-              >
-                <i
-                  className="icon fa-brands fa-instagram"
-                  style={{ color: "#000000" }}
-                ></i>
+              <a href="https://www.instagram.com/lokeshtiwari212/" target="_blank">
+                <i className="icon fa-brands fa-instagram" style={{ color: "#000000" }}></i>
               </a>
             </div>
+            
             <a href="#">
               {" "}
               <Button variant=" button-cv px-3 my-4">Download CV</Button>
@@ -63,7 +58,7 @@ function Hero() {
           </Col>
 
           <Col lg={6} className="p-3 pb-5">
-<img className="img-fluid profile-img"src = {profile}></img>
+            <img className="img-fluid profile-img" src={profile}></img>
           </Col>
         </Row>
       </Container>

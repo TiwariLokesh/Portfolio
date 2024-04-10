@@ -34,8 +34,22 @@ export const Footer = () => {
                   <Link to="/myworkshop" className="nav-link"> Workshop</Link>
                   <Link to="/contact" className="nav-link"> Contact</Link>
     </Col>
-    <Col md={12} className='d-flex justify-content-center align-items-center'>
-    
+    <Col md={12} className='d-flex justify-content-center align-items-center gap-4 py-2'>
+           <a href="https://www.linkedin.com/in/lokesh-tiwari-ab7391253/" target="_blank">
+                <i className="iccon fa-brands fa-linkedin"></i>
+              </a>
+
+              <a href="https://github.com/TiwariLokesh?tab=overview&from=2024-03-01&to=2024-03-14" target="_blank">
+                <i className="iccon fab fa-github"></i>
+              </a>
+
+              <a href="https://www.instagram.com/lokeshtiwari212/" target="_blank">
+                <i className="iccon fa-brands fa-instagram"></i>
+              </a>
+
+              <a href="https://wa.me/+917248475238" target="_blank">
+              <i class="iccon fa-brands fa-whatsapp"></i>
+              </a>
     </Col>
         </Row>
       </Container>
