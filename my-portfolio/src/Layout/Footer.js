@@ -36,7 +36,7 @@ export const Footer = () => {
     </Col>
     <Col md={12} className='d-flex justify-content-center align-items-center gap-4 py-2'>
            <a href="https://www.linkedin.com/in/lokesh-tiwari-ab7391253/" target="_blank">
-               <i className="iccon fa-brands fa-linkedin"></i>
+                <i className="iccon fa-brands fa-linkedin"></i>
               </a>
 
               <a href="https://github.com/TiwariLokesh?tab=overview&from=2024-03-01&to=2024-03-14" target="_blank">

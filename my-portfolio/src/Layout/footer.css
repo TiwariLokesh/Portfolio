@@ -8,3 +8,7 @@ color: #fff;
     font-size: 2rem;
     color: #fff;
 }
+
+@media only screen and (max-width:468px){
+    
+}
