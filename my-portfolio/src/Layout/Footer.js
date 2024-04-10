@@ -34,6 +34,9 @@ export const Footer = () => {
                   <Link to="/myworkshop" className="nav-link"> Workshop</Link>
                   <Link to="/contact" className="nav-link"> Contact</Link>
     </Col>
+    <Col md={12} className='d-flex justify-content-center align-items-center'>
+    
+    </Col>
         </Row>
       </Container>
 
