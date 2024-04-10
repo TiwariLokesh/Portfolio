@@ -11,9 +11,9 @@ import MyWorkshop from '../Pages/MyWorkshop';
 
 export const Footer = () => {
   return (
-    <footer className="shadow py-5 foot">
+    <footer className="shadow foot">
       <Container>
-        <Row className='d-flex justify-content-center align-items-center gap-4'>
+        <Row className='d-flex justify-content-center align-items-center gap-4 py-5'>
           <Col sm={12} className='d-flex justify-content-center align-items-center text-center'>
           <h2 className='fs-2 fw-normal'>Stay up to date and Reach out for <br/>inquiries or collaborations!</h2>
           </Col>
@@ -25,7 +25,7 @@ export const Footer = () => {
           aria-describedby="basic-addon2"
           className='py-3 rounded-5 pr-5' // Add padding to the right to make space for the button
         />
-        <Button variant="" className='rounded-5 position-absolute end-0' style={{top: '13%', transform: 'translateY(-50%)',transform:"translateX(-10%)",padding:"9px 22px",backgroundColor:"#ca0018",color:"#fff"}}>Subscribe</Button>
+        <Button variant="" className='rounded-5 position-absolute end-0' style={{top: '13%', transform: 'translateY(-50%)',transform:"translateX(-10%)",padding:"9px 22px",backgroundColor:"#ca0018",color:"#fff", zIndex:"99"}}>Subscribe</Button>
       </InputGroup>
     </Col>
     <Col md={12} className='d-flex justify-content-center align-items-center gap-5'>
@@ -50,6 +50,10 @@ export const Footer = () => {
               <a href="https://wa.me/+917248475238" target="_blank">
               <i class="iccon fa-brands fa-whatsapp"></i>
               </a>
+    </Col>
+
+    <Col md={12}>
+    <p className='nav-logo' >Lokesh <span className='nav-logo'> Tiwari </span></p>
     </Col>
         </Row>
       </Container>
