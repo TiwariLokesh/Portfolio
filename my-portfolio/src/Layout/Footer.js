@@ -11,7 +11,7 @@ import MyWorkshop from '../Pages/MyWorkshop';
 
 export const Footer = () => {
   return (
-    //Footer
+    //Footer  
     <footer className="shadow foot">
       <Container>
         <Row className='d-flex justify-content-center align-items-center gap-4 py-5'>
@@ -34,7 +34,7 @@ export const Footer = () => {
                   <Link to="/myblogs" className="nav-link"> Blogs</Link>
                   <Link to="/myworkshop" className="nav-link"> Workshop</Link>
                   <Link to="/contact" className="nav-link"> Contact</Link>
-    </Col>
+    </Col>  
     <Col md={12} className='d-flex justify-content-center align-items-center gap-4 py-2'>
            <a href="https://www.linkedin.com/in/lokesh-tiwari-ab7391253/" target="_blank">
                 <i className="iccon fa-brands fa-linkedin"></i>
@@ -59,8 +59,9 @@ export const Footer = () => {
         </Row>
       </Container>
 
+
       <Routes>
-        
+      
         <Route path='/mycertifications' element={<MyCertifications/>}/>
         <Route path='/myblogs' element={<MyBlogs/>}/>
         <Route path='/myworkshop' element={<MyWorkshop/>}/>
