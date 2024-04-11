@@ -11,6 +11,7 @@ import MyWorkshop from '../Pages/MyWorkshop';
 
 export const Footer = () => {
   return (
+    //Footer
     <footer className="shadow foot">
       <Container>
         <Row className='d-flex justify-content-center align-items-center gap-4 py-5'>
