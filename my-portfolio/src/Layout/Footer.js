@@ -29,7 +29,7 @@ export const Footer = () => {
         <Button variant="" className='rounded-5 position-absolute end-0' style={{top: '13%', transform: 'translateY(-50%)',transform:"translateX(-10%)",padding:"9px 22px",backgroundColor:"#ca0018",color:"#fff", zIndex:"99"}}>Subscribe</Button>
       </InputGroup>
     </Col>
-    <Col md={12} className='d-flex justify-content-center align-items-center gap-5'>
+    <Col md={12} className='d-flex justify-content-center align-items-center gap-5 links'>
     <Link to="/mycertifications" className="nav-link">Certifications</Link>
                   <Link to="/myblogs" className="nav-link"> Blogs</Link>
                   <Link to="/myworkshop" className="nav-link"> Workshop</Link>

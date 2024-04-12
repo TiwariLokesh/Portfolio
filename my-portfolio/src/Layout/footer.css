@@ -13,4 +13,7 @@ color: #fff;
     .foot-head{
         font-size:1.2rem !important;    
     }
+    .links{
+        gap: 10px !important;
+    }
 }
