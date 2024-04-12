@@ -10,5 +10,7 @@ color: #fff;
 }
 
 @media only screen and (max-width:468px){
-    
+    .foot-head{
+        font-size:1.2rem !important;    
+    }
 }
