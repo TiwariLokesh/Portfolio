@@ -16,7 +16,7 @@ export const Footer = () => {
       <Container>
         <Row className='d-flex justify-content-center align-items-center gap-4 py-5'>
           <Col sm={12} className='d-flex justify-content-center align-items-center text-center'>
-          <h2 className='fs-2 fw-normal'>Stay up to date and Reach out for <br/>inquiries or collaborations!</h2>
+          <h2 className='fs-2 fw-normal foot-head'>Stay up to date and Reach out for <br/>inquiries or collaborations!</h2>
           </Col>
           <Col md={5}>
       <InputGroup className="mb-3">
