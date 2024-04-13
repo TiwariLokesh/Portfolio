@@ -55,7 +55,7 @@ export const Footer = () => {
 
     <Col md={12} className='d-flex justify-content-between align-items-center'>
     <p className='nav-logo flo' >Lokesh <span className='nav-logo'> Tiwari </span></p>
-    <p className='fw-medium pt-2'>@ All Rights Reserved</p>
+    <p className='fw-medium pt-2 '>@ All Rights Reserved</p>
     </Col>
         </Row>
       </Container>
