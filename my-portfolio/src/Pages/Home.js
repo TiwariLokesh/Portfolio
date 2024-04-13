@@ -17,6 +17,7 @@ function Home() {
       <Projects/>
       <Service/>
       <Footer/>
+      
     </>
   );
 }
