@@ -16,7 +16,7 @@ function Home() {
       <Experience/>
       <Projects/>
       <Service/>
-      <Footer/
+      <Footer/>
       
     </>
   );
