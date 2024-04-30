@@ -56,7 +56,7 @@ import Card from 'react-bootstrap/Card';
 
 function BasicExample() {
   return (
-    <div className='pb-5 '>
+    <div className='pb-5 d-flex  justify-content-center p-1'>
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
