@@ -4,12 +4,12 @@ const CertificateData = [
   {
     heading: "INTERNSHIP",
     disc: "Certified in Web Development encompassing HTML, CSS, JavaScript, jQuery, Bootstrap, and WordPress. Proficient in crafting dynamic and responsive websites with a focus on user experience.",
-    img:"https://yt3.googleusercontent.com/ytc/AIdro_k2wsQa2j9sAhjS25DyZxrhAGDJWtNZBYcLVd3uqQ=s900-c-k-c0x00ffffff-no-rj"
+    img:"https://img.freepik.com/free-photo/document-marketing-strategy-business-concept_53876-124269.jpg?size=626&ext=jpg&ga=GA1.1.1224184972.1714435200&semt=sph"
   },
   {
     heading: "WEB DEVELOPMENT",
     disc: "Certified in Web Development encompassing HTML, CSS, JavaScript, jQuery, Bootstrap, and WordPress. Proficient in crafting dynamic and responsive websites with a focus on user experience.",
-    img: "https://www.visitdubai.com/-/media/gathercontent/article/t/top-rides-at-img-worlds-of-adventure/media/top-rides-at-img-worlds-of-adventure-predator-5.jpg?rev=f1bb54a15add49a09c912eac851f4ff7&cx=0.56&cy=0.4&cw=397&ch=397"
+    img: ""
   },
   {
     heading: "GRAPHIC DESIGNING",
