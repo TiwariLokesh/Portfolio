@@ -57,14 +57,14 @@ import Card from 'react-bootstrap/Card';
 function BasicExample(props) {
   return (
     <div className='pb-5 d-flex  justify-content-center p-1 '>
-    <Card style={{ width: '24rem',border:"none" }} className='shadow-lg' >
+    <Card style={{ width: '22rem',border:"none" }} className='shadow-lg' >
       <Card.Img variant="top" src={props.data.img} />
       <Card.Body style={ {borderRight:"3px solid red",borderBottomRightRadius:"10px"  }}>
         <Card.Title>{props.data.heading}</Card.Title>
-        <Card.Text>
+        <Card.Text style={{textAlign:"justify"}}>
           {props.data.disc}
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant=" project-button">See Certificate</Button>
       </Card.Body>
     </Card>
     </div>
