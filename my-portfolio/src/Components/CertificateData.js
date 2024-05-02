@@ -9,11 +9,12 @@ const CertificateData = [
   {
     heading: "WEB DEVELOPMENT",
     disc: "Certified in Web Development encompassing HTML, CSS, JavaScript, jQuery, Bootstrap, and WordPress. Proficient in crafting dynamic and responsive websites with a focus on user experience.",
-    img: ""
+    img: "https://img.freepik.com/free-vector/web-development-concept-with-programmer-ar_107791-17049.jpg"
   },
   {
     heading: "GRAPHIC DESIGNING",
-    disc: "Professionally certified in Graphic Designing, adept in Adobe Photoshop and Canva, specializing in creative design solutions, brand identity development, and compelling visual storytelling techniques."
+    disc: "Professionally certified in Graphic Designing, adept in Adobe Photoshop and Canva, specializing in creative design solutions, brand identity development, and compelling visual storytelling techniques.",
+    img: "https://img.freepik.com/free-vector/postponed-concept_23-2148508247.jpg?w=1060&t=st=1714667577~exp=1714668177~hmac=cd3f0b27653f5a6fb7cc6daf25fde7ab4d34a176553bf740ecef131fb10d2877"
   },
   {
     heading: "GOOGLE CLOUD",
