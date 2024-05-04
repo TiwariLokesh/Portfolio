@@ -4,7 +4,6 @@ import CertificateCard from "../Components/CertificateCard";
 import CertificateData from "../Components/CertificateData";
 import { Container, Row, Col } from 'react-bootstrap';
 import Footer from "../Layout/Footer";
-import Modals from '../Components/Modals'
 function MyCertifications() {
   return (
     <>
@@ -27,7 +26,6 @@ function MyCertifications() {
               </Col>
             ))}
           </Row>
-          <Modals/>
         </Container>
       </div>
 
