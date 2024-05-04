@@ -2,9 +2,9 @@ import React from "react";
 import CertificationHead from "../Components/CertificationHead";
 import CertificateCard from "../Components/CertificateCard";
 import CertificateData from "../Components/CertificateData";
-import { Container, Row, Col, Modal } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import Footer from "../Layout/Footer";
-
+import Modals from '../Components/Modals'
 function MyCertifications() {
   return (
     <>
@@ -27,7 +27,7 @@ function MyCertifications() {
               </Col>
             ))}
           </Row>
-          <Modal/>
+          <Modals/>
         </Container>
       </div>
 

@@ -30,7 +30,7 @@ const Modals = () => {
             bottom: 'auto',
             marginRight: '-50%',
             transform: 'translate(-50%, -50%)',
-            maxWidth: '400px',
+            maxWidth: '550px',
             padding: '20px',
             borderRadius: '10px',
             boxShadow: '0 0 10px rgba(0, 0, 0, 0.5)'
@@ -39,14 +39,8 @@ const Modals = () => {
       >
         <div>
           <img src="https://via.placeholder.com/150" alt="Image" style={{ width: '100%', borderRadius: '10px' }} />
-          <h2 style={{ marginTop: '10px' }}>Title</h2>
-          <p>
-            Proin ut dui sed metus pharetra hend rerit vel non mi. Nulla orcane faucibus ex, non facilisis nisl.
-            Maexenas aliquet mauris ut tempus.
-          </p>
-          <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+          <div style={{ textAlign: 'center', marginTop: '10px' }}>
             <button onClick={closeModal}>Cancel</button>
-            <button>Done</button>
           </div>
         </div>
       </Modal>
