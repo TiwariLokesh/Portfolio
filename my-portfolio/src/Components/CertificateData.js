@@ -4,12 +4,15 @@ import graphic from '../Images/Certificate/graphic.png'
 import cloud from '../Images/Certificate/cloud.png'
 import workshop from '../Images/Certificate/workshop.png'
 import hackathon from '../Images/Certificate/hackathon.png'
+import techlearns from '../Images/myCertificate/workshop.png'
+import gammaprep from '../Images/myCertificate/gammaprep.jpg'
 
 const CertificateData = [
   {
     heading: "INTERNSHIP",
     disc: "Certified in Web Development encompassing HTML, CSS, JavaScript, jQuery, Bootstrap, and WordPress. Proficient in crafting dynamic and responsive websites with a focus on user experience.",
     img:internshipImg,
+    certificateImg: gammaprep
   },
   {
     heading: "WEB DEVELOPMENT",
@@ -24,12 +27,14 @@ const CertificateData = [
   {
     heading: "GOOGLE CLOUD",
     disc: "Certified in Google Cloud Computing Foundations & Generative AI, equipped with essential skills for navigating Google Cloud. Prepared to excel in cloud computing with a deep understanding of core concepts.",
-    img: cloud
+    img: cloud,
+    
   },
   {
     heading: "WORKSHOP",
     disc: "Conducted a workshop on web development and graphic design at Garden Valley Public School with support from Techlearns Academy. Excited to inspire and educate future tech and design enthusiasts.",
-    img : workshop
+    img : workshop,
+    certificateImg : techlearns
   },
   {
     heading: "HACKATHON",
