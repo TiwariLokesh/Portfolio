@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import '../Stylings/Certifications.css'
-import Certification from '../Images/Certification.png'
+import Certificate from '../Images/Certificate/certificate.jpg'
 
 
 function CertificationHead() {
@@ -28,7 +28,7 @@ function CertificationHead() {
           </Col>
 
           <Col md={6} className="certificate-img d-flex align-items-center justify-content-center">
-            <img src={Certification} style={{ maxWidth: "100%", height: "auto" }} alt="Certification" />
+            <img src={Certificate} style={{ maxWidth: "100%", height: "auto" }} alt="Certification" />
           </Col>
         </Row>
       </Container>
