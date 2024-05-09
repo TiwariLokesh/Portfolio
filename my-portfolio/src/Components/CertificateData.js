@@ -1,10 +1,10 @@
-
+import internshipImg from '../Images/Certificate/internship.png'
 
 const CertificateData = [
   {
     heading: "INTERNSHIP",
     disc: "Certified in Web Development encompassing HTML, CSS, JavaScript, jQuery, Bootstrap, and WordPress. Proficient in crafting dynamic and responsive websites with a focus on user experience.",
-    img:"https://img.freepik.com/free-photo/document-marketing-strategy-business-concept_53876-124269.jpg?size=626&ext=jpg&ga=GA1.1.1224184972.1714435200&semt=sph",
+    img:internshipImg,
   },
   {
     heading: "WEB DEVELOPMENT",
