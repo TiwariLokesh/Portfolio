@@ -9,7 +9,7 @@ function CertificationHead() {
     <>
       <Container>
         <Row>
-          <Col md={6} className="certificate-para pt-5 pb-5" style={{marginTop:"50px"}}>
+          <Col md={6} className="certificate-para  " style={{marginTop:"50px"}}>
             <div className="pt-5 project-heading p-1 cert">
               My <span>CERTIFICATIONS</span>
             </div>
