@@ -3,7 +3,7 @@ import Modal from 'react-modal';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-function BasicExample(props) {
+function CertificateCard(props) {
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
   const openModal = () => {
@@ -60,4 +60,4 @@ function BasicExample(props) {
   );
 }
 
-export default BasicExample;
+export default CertificateCard;
