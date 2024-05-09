@@ -23,7 +23,7 @@ function CertificateCard(props) {
           <Card.Text style={{ textAlign: "justify" }}>
             {props.data.disc}
           </Card.Text>
-          <Button variant="project-button" onClick={openModal}>Open Modal</Button>
+          <Button variant="none" style={{border: "1px solid #ca0018", color:"#ca0018"}} onClick={openModal}>See Certificate</Button>
         </Card.Body>
       </Card>
 
@@ -52,7 +52,7 @@ function CertificateCard(props) {
         <div>
           <img src={props.data.certificateImg} alt="Certificate" style={{ width: '100%', borderRadius: '10px' }} />
           <div style={{ textAlign: 'center', marginTop: '10px' }}>
-            <Button variant="danger" onClick={closeModal}>Close Modal</Button>
+            <Button variant="danger" onClick={closeModal}>Close</Button>
           </div>
         </div>
       </Modal>
