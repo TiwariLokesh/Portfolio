@@ -28,7 +28,7 @@ function Projects() {
               <Card.Body>
               <p><span className="card-title">Crypto Tracker</span></p>
                 <Card.Text className="card-content ">Dynamic cryptocurrency tracking website. Stay updated on market trends, analyze real-time data, and efficiently manage your digital assets online.</Card.Text>
-                <Button variant=" project-button">Read More</Button>
+                <a href="https://tiwarilokesh.github.io/Crypto-Tracker/" target="_blank"><Button variant=" project-button">Read More</Button></a>
               </Card.Body>
             </Card>
           </Col>
