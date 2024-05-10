@@ -17,7 +17,7 @@ function Projects() {
               <Card.Body>
                 <p><span className="card-title">Tech Connect</span></p>
                 <Card.Text className="card-content ">A Social Media app for developers by the developers. Geeks can post topics on new technologies and follow geeks with same interest.</Card.Text>
-                <Button variant=" project-button">Read More</Button>
+                <Button variant=" project-button">See Project</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -28,7 +28,7 @@ function Projects() {
               <Card.Body>
               <p><span className="card-title">Crypto Tracker</span></p>
                 <Card.Text className="card-content ">Dynamic cryptocurrency tracking website. Stay updated on market trends, analyze real-time data, and efficiently manage your digital assets online.</Card.Text>
-                <a href="https://tiwarilokesh.github.io/Crypto-Tracker/" target="_blank"><Button variant=" project-button">Read More</Button></a>
+                <a href="https://tiwarilokesh.github.io/Crypto-Tracker/" target="_blank"><Button variant=" project-button">See Project</Button></a>
               </Card.Body>
             </Card>
           </Col>
@@ -39,7 +39,7 @@ function Projects() {
               <Card.Body>
               <p><span className="card-title">KK. Electric (Web)</span></p>
                 <Card.Text className="card-content ">Presenting K.K. Electric & Tool House's dynamic website, showcasing products and expertise. Elevate your online presence with us!</Card.Text>
-                <a href="https://kkelectricindia.com/" target="_blank"><Button variant=" project-button">Read More</Button></a>
+                <a href="https://kkelectricindia.com/" target="_blank"><Button variant=" project-button">See Project</Button></a>
               </Card.Body>
             </Card>
           </Col>
