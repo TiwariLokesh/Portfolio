@@ -39,7 +39,7 @@ function Projects() {
               <Card.Body>
               <p><span className="card-title">KK. Electric (Web)</span></p>
                 <Card.Text className="card-content ">Presenting K.K. Electric & Tool House's dynamic website, showcasing products and expertise. Elevate your online presence with us!</Card.Text>
-                <Button variant=" project-button">Read More</Button>
+                <a href="https://kkelectricindia.com/" target="_blank"><Button variant=" project-button">Read More</Button></a>
               </Card.Body>
             </Card>
           </Col>
