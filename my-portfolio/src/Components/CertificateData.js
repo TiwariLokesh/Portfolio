@@ -9,6 +9,7 @@ import gammaprep from '../Images/myCertificate/gammaprep.jpg'
 import webdev from '../Images/myCertificate/web.jpg'
 import photoshop from '../Images/myCertificate/photoshop.jpg'
 import googleCloud from '../Images/myCertificate/cloud.jpg'
+import hackathonParticipitation from '../Images/myCertificate/hackathon.png'
 
 const CertificateData = [
   {
@@ -45,7 +46,8 @@ const CertificateData = [
   {
     heading: "HACKATHON",
     disc: "Conducted a workshop on web development and graphic design at Garden Valley Public School with support from Techlearns Academy. Excited to inspire and educate future tech and design enthusiasts.",
-    img : hackathon
+    img : hackathon,
+    certificateImg: hackathonParticipitation
   },
 ];
 
