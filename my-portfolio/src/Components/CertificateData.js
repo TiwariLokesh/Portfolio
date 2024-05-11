@@ -45,7 +45,7 @@ const CertificateData = [
   },
   {
     heading: "HACKATHON",
-    disc: "Conducted a workshop on web development and graphic design at Garden Valley Public School with support from Techlearns Academy. Excited to inspire and educate future tech and design enthusiasts.",
+    disc: "I actively participated in a hackathon, collaborating with a diverse team to ideate, innovate, and develop impactful solutions for real-world challenges and competitive environments with enthusiasm.",
     img : hackathon,
     certificateImg: hackathonParticipitation
   },
