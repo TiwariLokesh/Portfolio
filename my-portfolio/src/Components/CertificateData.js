@@ -6,6 +6,7 @@ import workshop from '../Images/Certificate/workshop.png'
 import hackathon from '../Images/Certificate/hackathon.png'
 import techlearns from '../Images/myCertificate/workshop.png'
 import gammaprep from '../Images/myCertificate/gammaprep.jpg'
+import webdev from '../Images/myCertificate/web.jpg'
 
 const CertificateData = [
   {
@@ -17,7 +18,8 @@ const CertificateData = [
   {
     heading: "WEB DEVELOPMENT",
     disc: "Certified in Web Development encompassing HTML, CSS, JavaScript, jQuery, Bootstrap, and WordPress. Proficient in crafting dynamic and responsive websites with a focus on user experience.",
-    img: web
+    img: web,
+    certificateImg: webdev
   },
   {
     heading: "GRAPHIC DESIGNING",
