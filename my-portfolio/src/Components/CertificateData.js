@@ -14,7 +14,7 @@ import hackathonParticipitation from '../Images/myCertificate/hackathon.png'
 const CertificateData = [
   {
     heading: "INTERNSHIP",
-    disc: "Certified in Web Development encompassing HTML, CSS, JavaScript, jQuery, Bootstrap, and WordPress. Proficient in crafting dynamic and responsive websites with a focus on user experience.",
+    disc: "During the internship, I acquired foundational knowledge in coding, data structures, algorithms, and Full Stack Development principles, fostering valuable skills for future endeavors.",
     img:internshipImg,
     certificateImg: gammaprep
   },
