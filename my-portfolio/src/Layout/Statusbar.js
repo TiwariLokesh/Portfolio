@@ -96,7 +96,7 @@ function Statusbar() {
                     MY WORKSHOP
                   </Link>
                 </Nav>
-                {/* Style the button using inline styles */}
+             
                 <Button 
                   className="my-2" 
                   variant=" button-color" 
