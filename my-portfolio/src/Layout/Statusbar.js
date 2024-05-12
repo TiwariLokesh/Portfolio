@@ -79,8 +79,8 @@ function Statusbar() {
                     to="/myblogs" 
                     className="nav-link"
                     onClick={() => {
-                      handleClose(); // Close Offcanvas on link click
-                      navigate('/myblogs'); // Navigate to the specified link
+                      handleClose(); 
+                      navigate('/myblogs'); 
                     }}
                   >
                     MY BLOGS
@@ -89,8 +89,8 @@ function Statusbar() {
                     to="/myworkshop" 
                     className="nav-link"
                     onClick={() => {
-                      handleClose(); // Close Offcanvas on link click
-                      navigate('/myworkshop'); // Navigate to the specified link
+                      handleClose(); 
+                      navigate('/myworkshop'); 
                     }}
                   >
                     MY WORKSHOP
@@ -100,7 +100,7 @@ function Statusbar() {
                 <Button 
                   className="my-2" 
                   variant=" button-color" 
-                  onClick={handleContactClick} // Call handleContactClick function on button click
+                  onClick={handleContactClick} 
                 >
                   Contact Us
                 </Button>
