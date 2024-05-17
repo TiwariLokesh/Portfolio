@@ -35,7 +35,8 @@ function Awards(props) {
         contentLabel="Example Modal"
         style={{
           overlay: {
-            backgroundColor: 'rgba(0, 0, 0, 0.5)'
+            backgroundColor: 'rgba(0, 0, 0, 0.5)',
+            zIndex:"99"
           },
           content: {
             top: '50%',
@@ -44,7 +45,7 @@ function Awards(props) {
             bottom: 'auto',
             marginRight: '-50%',
             transform: 'translate(-50%, -50%)',
-            maxWidth: '750px',
+            maxWidth: '550px',
             padding: '20px',
             borderRadius: '10px',
             boxShadow: '0 0 10px rgba(0, 0, 0, 0.5)'
@@ -52,7 +53,7 @@ function Awards(props) {
         }}
       >
         <div>
-          <img src={props.data.certificateImg} alt="Certificate" style={{ width: '100%', borderRadius: '10px' }} />
+          <img src={props.data.certficateImg} alt="Certificate" style={{ width: '100%', borderRadius: '10px' }} />
           <div style={{ textAlign: 'center', marginTop: '10px' }}>
             <Button variant="danger" onClick={closeModal}>Close</Button>
           </div>
