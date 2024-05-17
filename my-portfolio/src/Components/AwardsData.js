@@ -11,7 +11,7 @@ const AwardsData = [
       },
       {
         heading:"Annual Training Camp",
-        disc:"I proudly earned the NCC Navy 'A' certificate, demonstrating discipline, leadership, and dedication through rigorous training and naval activities, preparing me to contribute effectively in challenging environments.",
+        disc:"I completed a 10-day Annual Training Camp with NCC Navy, gaining valuable skills, discipline, and teamwork through intensive training and diverse naval activities, preparing me for challenging environments.",
         img : atc,
         certficateImg:training
       }
