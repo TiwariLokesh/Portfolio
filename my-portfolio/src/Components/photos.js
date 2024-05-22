@@ -1,10 +1,10 @@
 export const photos = [
     {
-      src: "https://source.unsplash.com/2ShvY8Lf6l0/800x1200",
+      src: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
       orientation: "portrait",
     },
     {
-      src: "https://source.unsplash.com/Dm-qxdynoEc/1600x900",
+      src: "https://pixlr.com/images/index/ai-image-generator-one.webp",
       orientation: "landscape",
     },
     {

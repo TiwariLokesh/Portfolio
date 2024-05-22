@@ -4,8 +4,9 @@ body {
   
   .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 10px;
+    margin: 20px;
   }
   
   .thumbnail {
@@ -16,11 +17,11 @@ body {
   }
   
   .thumbnail.portrait {
-    aspect-ratio: 3/4; /* Set portrait aspect ratio */
+    grid-row: span 2;
   }
   
   .thumbnail.landscape {
-    aspect-ratio: 16/9; /* Set landscape aspect ratio */
+    grid-column: span 2;
   }
   
   .thumbnail:hover {
@@ -55,7 +56,8 @@ body {
     cursor: pointer;
   }
   
-  .prev, .next {
+  .prev,
+  .next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -64,5 +66,5 @@ body {
     margin-top: -22px;
     color: white;
     font-weight: bold;
-   
-  }  
+  }
+  

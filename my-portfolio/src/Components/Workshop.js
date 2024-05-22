@@ -1,17 +1,20 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
-import { photos } from '../Components/photos'
-import '../Stylings/Workshop.css'
+import { photos } from '../Components/photos';
+import '../Stylings/Workshop.css';
 
 const Workshop = () => {
-  const [currentImage, setCurrentImage] = useState(null);
+  const [currentImage, setCurrentImage] = useState(0);
+  const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
-  const openLightbox = (index) => {
+  const openLightbox = useCallback((index) => {
     setCurrentImage(index);
-  };
+    setViewerIsOpen(true);
+  }, []);
 
   const closeLightbox = () => {
-    setCurrentImage(null);
+    setCurrentImage(0);
+    setViewerIsOpen(false);
   };
 
   return (
@@ -21,23 +24,22 @@ const Workshop = () => {
           <img
             key={index}
             src={photo.src}
-            className={`thumbnail ${photo.orientation}`}
+            alt={`Photo ${index + 1}`}
+            className="gallery-image"
             onClick={() => openLightbox(index)}
-            alt=""
           />
         ))}
       </div>
-
-      {currentImage !== null && (
-        <div className="lightbox" onClick={closeLightbox}>
-          <span className="close">&times;</span>
-          <img className="lightbox-image" src={photos[currentImage].src} alt="" />
-          <span className="prev" onClick={(e) => { e.stopPropagation(); setCurrentImage((currentImage - 1 + photos.length) % photos.length); }}>&#10094;</span>
-          <span className="next" onClick={(e) => { e.stopPropagation(); setCurrentImage((currentImage + 1) % photos.length); }}>&#10095;</span>
+      {viewerIsOpen && (
+        <div className="modal" onClick={closeLightbox}>
+          <span className="close" onClick={closeLightbox}>&times;</span>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <img src={photos[currentImage].src} alt={`Photo ${currentImage + 1}`} />
+          </div>
         </div>
       )}
     </div>
   );
-};
+}
 
-export default Workshop
+export default Workshop;
