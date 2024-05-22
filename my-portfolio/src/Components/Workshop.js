@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useCallback } from "react";
 import ReactDOM from "react-dom";
 import { photos } from '../Components/photos';
 import '../Stylings/Workshop.css';
