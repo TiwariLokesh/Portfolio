@@ -25,18 +25,18 @@ const photos = [
   },
   {
     src: 'https://source.unsplash.com/epcsn8Ed8kY/600x799',
-    width: 3,
+    width: 2.5,
     height: 3
   },
   {
     src: 'https://source.unsplash.com/NQSWvyVRIJk/800x599',
-    width: 4,
+    width: 3.5,
     height: 3
   },
   {
     src: 'https://source.unsplash.com/zh7GEuORbUw/600x799',
-    width: 3,
-    height: 4
+    width: 2.5,
+    height: 3
   },
   {
     src: 'https://source.unsplash.com/PpOHJezOalU/800x599',
@@ -76,7 +76,7 @@ const Workshop = () => {
       </div>
 
       {currentImage !== null && (
-        <div className="lightbox" onClick={closeLightbox}>
+        <div className="lightbox" onClick={closeLightbox} style={{zIndex:99999}}>
           <span className="close">&times;</span>
           <img className="lightbox-content" src={photos[currentImage].src} alt={`Photo ${currentImage}`} />
         </div>
