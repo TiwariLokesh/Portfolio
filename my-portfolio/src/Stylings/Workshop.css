@@ -1,17 +1,17 @@
 /* src/components/PhotoGallery.css */
 
-.gallery-container {
+/* .gallery-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+} */
 
-.gallery {
+/* .gallery {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   justify-content: center;
-}
+} */
 
 .gallery img {
   cursor: pointer;

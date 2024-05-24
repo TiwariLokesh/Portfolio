@@ -1,7 +1,7 @@
 // src/components/PhotoGallery.js
 import React, { useState } from 'react';
 import '../Stylings/Workshop.css';
-
+import {Container, Row, Col} from 'react-bootstrap'
 const photos = [
   {
     src: 'https://source.unsplash.com/2ShvY8Lf6l0/800x599',
@@ -62,6 +62,9 @@ const Workshop = () => {
   };
 
   return (
+    <Container fluid>
+      <Row>
+        <Col className='d-flex justify-content-center align-items-center'>
     <div className="gallery-container">
       <div className="gallery">
         {photos.map((photo, index) => (
@@ -82,6 +85,9 @@ const Workshop = () => {
         </div>
       )}
     </div>
+    </Col>
+    </Row>
+    </Container>
   );
 };
 
