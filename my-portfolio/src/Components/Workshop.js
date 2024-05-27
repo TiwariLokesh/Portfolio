@@ -44,7 +44,7 @@ const photos = [
   },
   {
     src: 'https://source.unsplash.com/I1ASdgphUH4/800x599',
-    width: 4,
+    width: ,
     height: 3
   }
 ];
