@@ -14,7 +14,7 @@ const photos = [
     height: 3.5
   },
   {
-    src: 'https://source.unsplash.com/qDkso9nvCg0/600x799',
+    // src: 'https://source.unsplash.com/qDkso9nvCg0/600x799',
     width: 3,
     height: 3.5
   },
