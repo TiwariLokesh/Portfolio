@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import '../Stylings/Workshop.css';
 import image1 from '../Images/Workshop/1.png'
 import image2 from '../Images/Workshop/2.png'
+import image3 from '../Images/Workshop/3.png'
+
 
 const photos = [
   // https://images.unsplash.com/photo-1561409037-5d7c064238bd?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
@@ -15,19 +17,20 @@ const photos = [
   {
     // src: 'https://source.unsplash.com/Dm-qxdynoEc/800x799',
     src : image2,
-    width: 2.9,
+    width: 3,
     height: 2.5
   },
   {
     // src: 'https://source.unsplash.com/qDkso9nvCg0/600x799',
+    src : image3,
     width: 3,
-    height: 3.5
+    height: 2.5
   },
-  {
-    src: 'https://source.unsplash.com/iecJiKe_RNg/600x799',
-    width: 3,
-    height: 3.5
-  },
+  // {
+  //   src: 'https://source.unsplash.com/iecJiKe_RNg/600x799',
+  //   width: 3,
+  //   height: 3.5
+  // },
   {
     src: 'https://source.unsplash.com/epcsn8Ed8kY/600x799',
     width: 2.5,
