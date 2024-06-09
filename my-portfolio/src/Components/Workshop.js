@@ -17,19 +17,16 @@ const photos = [
     height: 2.5
   },
   {
-    // src: 'https://source.unsplash.com/Dm-qxdynoEc/800x799',
     src : image2,
     width: 3,
     height: 2.5
   },
   {
-    // src: 'https://source.unsplash.com/qDkso9nvCg0/600x799',
     src : image3,
     width: 4,
     height: 2.5
   },
   {
-    // src: 'https://source.unsplash.com/iecJiKe_RNg/600x799',
     src : image4,
     width: 3.3,
     height: 2.5
