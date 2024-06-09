@@ -4,6 +4,8 @@ import '../Stylings/Workshop.css';
 import image1 from '../Images/Workshop/1.png'
 import image2 from '../Images/Workshop/2.png'
 import image3 from '../Images/Workshop/3.png'
+import image4 from '../Images/Workshop/4.png'
+
 
 
 const photos = [
@@ -23,14 +25,15 @@ const photos = [
   {
     // src: 'https://source.unsplash.com/qDkso9nvCg0/600x799',
     src : image3,
-    width: 3,
+    width: 4,
     height: 2.5
   },
-  // {
-  //   src: 'https://source.unsplash.com/iecJiKe_RNg/600x799',
-  //   width: 3,
-  //   height: 3.5
-  // },
+  {
+    // src: 'https://source.unsplash.com/iecJiKe_RNg/600x799',
+    src : image4,
+    width: 3.3,
+    height: 2.5
+  },
   {
     src: 'https://source.unsplash.com/epcsn8Ed8kY/600x799',
     width: 2.5,
