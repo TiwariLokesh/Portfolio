@@ -29,6 +29,7 @@ const photos = [
     width: 4,
     height: 2.5
   },
+  
   {
     src : image4,
     width: 3.3,
