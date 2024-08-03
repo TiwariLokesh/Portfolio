@@ -159,6 +159,7 @@ const ImageGroup = styled.div`
   padding: calc(clamp(10rem, 1rem + 30vmin, 30rem) / 10);
 `;
 
+
 const Image = styled.img`
   object-fit: contain;
   width: 100%;
