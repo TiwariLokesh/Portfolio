@@ -5,13 +5,14 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { Routes, Route, Link, useNavigate } from 'react-router-dom';
-import { FaBars } from 'react-icons/fa'; // Import the hamburger icon from react-icons/fa
+// import { FaBars } from 'react-icons/fa'; // Import the hamburger icon from react-icons/fa
 import '../Layout/Statusbar.css';
 import Home from '../Pages/Home';
 import MyBlogs from '../Pages/MyBlogs';
 import MyWorkshop from '../Pages/MyWorkshop';
 import Contact from '../Pages/Contact';
 import MyCertifications from '../Pages/MyCertifications';
+import MenuOpenIcon from '@mui/icons-material/MenuOpen';
 
 function Statusbar() {
   const [showOffcanvas, setShowOffcanvas] = useState(false); // State to control the Offcanvas visibility
@@ -39,7 +40,8 @@ function Statusbar() {
               className="custom-toggler"
               onClick={() => setShowOffcanvas(!showOffcanvas)} // Toggle Offcanvas visibility on click
             >
-              <FaBars  style={{height:"36px",width:"auto"}}/> {/* Replace the default hamburger icon with the custom icon */}
+              {/* <FaBars  style={{height:"36px",width:"auto"}}/> */}
+              <MenuOpenIcon/>
             </Navbar.Toggle>
             <Navbar.Offcanvas
               show={showOffcanvas} // Control the visibility of the Offcanvas
@@ -75,8 +77,8 @@ function Statusbar() {
                   >
                     MY CERTIFICATIONS
                   </Link>
-                  <Link 
-                    to="/myblogs" 
+                  {/* <Link 
+                    to="/myblogs"       
                     className="nav-link"
                     onClick={() => {
                       handleClose(); 
@@ -84,9 +86,9 @@ function Statusbar() {
                     }}
                   >
                     MY BLOGS
-                  </Link>
+                  </Link> */}
                   <Link 
-                    to="/myworkshop" 
+                    to="/myworkshop"  	  
                     className="nav-link"
                     onClick={() => {
                       handleClose(); 

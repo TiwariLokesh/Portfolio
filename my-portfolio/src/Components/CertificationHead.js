@@ -1,15 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import '../Stylings/Certifications.css'
 import Certificate from '../Images/Certificate/certificate.jpg'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 
 function CertificationHead() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Animation duration in milliseconds
+      once: true,     // Whether animation should happen only once
+    });
+  }, []);
   return (
     <>
       <Container>
         <Row>
-          <Col md={6} className="certificate-para  " style={{marginTop:"50px"}}>
+          <Col data-aos="fade-right" md={6} className="certificate-para  " style={{ marginTop: "50px" }}>
             <div className="pt-5 project-heading p-1 cert">
               My <span>CERTIFICATIONS</span>
             </div>
@@ -27,7 +35,7 @@ function CertificationHead() {
             </p>
           </Col>
 
-          <Col md={6} className="certificate-img d-flex align-items-center justify-content-center">
+          <Col data-aos="fade-left" md={6} className="certificate-img d-flex align-items-center justify-content-center">
             <img src={Certificate} style={{ maxWidth: "100%", height: "auto" }} alt="Certification" />
           </Col>
         </Row>

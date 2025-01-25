@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Modal from 'react-modal';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+// import '../Stylings/Certifications.css'
 
 
 function CertificateCard(props) {
@@ -17,14 +18,14 @@ function CertificateCard(props) {
 
   return (
     <div className='pb-5 d-flex  justify-content-center p-1 '>
-      <Card style={{ width: '22rem', border: "none" }} className='shadow-lg' >
+      <Card style={{ width: '22rem', border: "none" }} className='shadow-lg certificate-card' >
         <Card.Img variant="top" src={props.data.img} />
         <Card.Body style={{ borderRight: "3px solid red", borderBottomRightRadius: "10px" }}>
           <Card.Title>{props.data.heading}</Card.Title>
           <Card.Text style={{ textAlign: "justify" }}>
             {props.data.disc}
           </Card.Text>
-          <Button variant="none" style={{border: "1px solid #ca0018", color:"#ca0018"}} onClick={openModal}>See Certificate</Button>
+          <Button className='certificate-button' variant="none" style={{ border: "1px solid #ca0018", color: "#ca0018" }} onClick={openModal}>See Certificate</Button>
         </Card.Body>
       </Card>
 
@@ -62,4 +63,3 @@ function CertificateCard(props) {
 }
 
 export default CertificateCard;
-   

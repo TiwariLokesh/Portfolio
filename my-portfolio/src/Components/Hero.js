@@ -1,8 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "../Stylings/Home.css";
 import profile from "../Images/profile.png";
+import Typewriter from 'typewriter-effect';
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+  
 function Hero() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Animation duration in milliseconds
+      once: true,     // Whether animation should happen only once
+    });
+  }, []);
+
   return (
     <div>
       <Container className="pb-5 pt-5">
@@ -15,7 +28,16 @@ function Hero() {
               I'm <span className="mx-1">Lokesh Tiwari</span>
             </h3>
             <h4 className="hero-h4 py-1">
-              Iam a <span className="special">Web Developer</span>
+              {/* Iam a <span className="special">Web Developer</span> */}
+              Iam a <span className="special"><Typewriter
+                options={{
+                  strings: ['Software Developer', 'Graphic Designer'],
+                  autoStart: true,
+                  loop: true,
+                  delay: 75, // Optional: Adjust typing speed
+                }}
+              /></span>
+
             </h4>
             <p className="hero-content mt-4 text-left">
               Greetings, I am Lokesh Tiwari, an accomplished{" "}
@@ -50,7 +72,7 @@ function Hero() {
                 <i className="icon fa-brands fa-instagram" style={{ color: "#000000" }}></i>
               </a>
             </div>
-            
+
             <a href="#">
               {" "}
               <Button variant=" button-cv px-3 my-4">Download CV</Button>
@@ -58,7 +80,7 @@ function Hero() {
           </Col>
 
           <Col lg={6} className="p-3 pb-5">
-            <img className="img-fluid profile-img" src={profile}></img>
+            <img data-aos="zoom-in-left" className="img-fluid profile-img" src={profile}></img>
           </Col>
         </Row>
       </Container>

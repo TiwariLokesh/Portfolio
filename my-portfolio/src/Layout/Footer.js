@@ -5,7 +5,7 @@ import Form from 'react-bootstrap/Form';
 import '../Layout/footer.css'
 import { Routes, Route, Link } from 'react-router-dom';
 import MyCertifications from '../Pages/MyCertifications';
-import MyBlogs from '../Pages/MyBlogs';
+// import MyBlogs from '../Pages/MyBlogs';
 import Contact from '../Pages/Contact';
 import MyWorkshop from '../Pages/MyWorkshop';
 
@@ -31,10 +31,10 @@ export const Footer = () => {
       </InputGroup>
     </Col>
     <Col md={12} className='d-flex justify-content-center align-items-center gap-5 links'>
-    <Link to="/mycertifications" className="nav-link">Certifications</Link>
-                  <Link to="/myblogs" className="nav-link"> Blogs</Link>
-                  <Link to="/myworkshop" className="nav-link"> Workshop</Link>
-                  <Link to="/contact" className="nav-link"> Contact</Link>
+    <Link to="/mycertifications" className="nav-link footer">Certifications</Link>
+                  {/* <Link to="/myblogs" className="nav-link footer"> Blogs</Link> */}
+                  <Link to="/myworkshop" className="nav-link footer"> Workshop</Link>
+                  <Link to="/contact" className="nav-link footer"> Contact</Link>
     </Col>  
     <Col md={12} className='d-flex justify-content-center align-items-center gap-4 py-2'>
            <a href="https://www.linkedin.com/in/lokesh-tiwari-ab7391253/" target="_blank">
@@ -62,10 +62,10 @@ export const Footer = () => {
       </Container>
 
 
-      <Routes>
+      <Routes>    
       
         <Route path='/mycertifications' element={<MyCertifications/>}/>
-        <Route path='/myblogs' element={<MyBlogs/>}/>
+        {/* <Route path='/myblogs' element={<MyBlogs/>}/>    */}
         <Route path='/myworkshop' element={<MyWorkshop/>}/>
         <Route path='/contact' element={<Contact/>}/>
       </Routes>

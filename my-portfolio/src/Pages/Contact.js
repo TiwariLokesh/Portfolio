@@ -23,7 +23,7 @@ function Contact() {
           </Col>
 
           <Col lg={6}>
-            <img
+            <img data-aos="zoom-in-left"
               style={{ width: "90%", margin: "20px 0px" }}
               src={FormImg}
               alt="Form"
@@ -32,10 +32,10 @@ function Contact() {
         </Row>
       </Container>
 
-<MyInformation></MyInformation>
-<div className="pt-5">
-<Footer/>
-</div>
+      <MyInformation></MyInformation>
+      <div className="pt-5">
+        <Footer />
+      </div>
 
     </>
   );
