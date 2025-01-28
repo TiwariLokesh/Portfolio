@@ -39,6 +39,7 @@ function Hero() {
               /></span>
 
             </h4>
+            
             <p className="hero-content mt-4 text-left">
               Greetings, I am Lokesh Tiwari, an accomplished{" "}
               <span className="special">Full Stack Developer</span> at{" "}
